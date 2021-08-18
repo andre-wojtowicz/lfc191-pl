@@ -114,7 +114,7 @@ CC-BY-SA-4.0 is similar to the license used by Wikipedia, and is recommended for
 
 ### The Linux Foundation
 
-![The Linux Foundation logo](img/linux-foundation-logo.jpg)
+![The Linux Foundation logo](img/linux-foundation-logo.png)
 
 [The Linux Foundation](https://www.linuxfoundation.org/) provides a neutral, trusted hub for developers to code, manage, and scale open technology projects. Founded in 2000, The Linux Foundation is supported by more than 1,000 members and is the world’s leading home for collaboration on open source software, open standards, open data and open hardware. The Linux Foundation’s methodology focuses on leveraging best practices and addressing the needs of contributors, users and solution providers to create sustainable models for open collaboration.
 

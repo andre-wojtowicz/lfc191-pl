@@ -29,6 +29,8 @@ By convention, file notices are usually placed at the start of the file.
 
 ### Example: Linux
 
+![Linux](img/linux.jpg)
+
 ```plaintext
 // SPDX-License-Identifier: GPL-2.0-only
 /*
@@ -51,9 +53,9 @@ The license here is the GPL version 2. This is indicated by the use of an SPDX s
 
 As a point of interest, if you look at the [git log history for this file](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/arch/arm64/kernel/acpi.c), you can see that many changes have been made to this file since 2014. Some of these changes were minor tweaks or even deletions without adding content, but some were of significant length (with a few >100 lines of code). If those subsequent additions contained copyrightable content, then the "2013-2014" year range in the copyright notice may be incomplete. Also, if any of the subsequent contributors were not employed by Linaro, then the copyright notice may not accurately list all copyright holders. This reflects how reliance solely on the copyright notice may be misleading or insufficient, if you are looking to understand the full copyright ownership context for a file or project.
 
-![Linux](img/linux.jpg)
-
 ### Example: FOSSology
+
+![FOSSology](img/fossology.png)
 
 ```plaintext
 /**************************************************************
@@ -79,9 +81,9 @@ In another [example](https://github.com/fossology/fossology/blob/master/src/nomo
 
 In this file, the full official text from the standard license header was used. The SPDX identifier was used in the other example, but in either case, it’s pretty clear that the license the file is governed under is GPL version 2, which is the important thing.
 
-![FOSSology](img/fossology.png)
-
 ### Example: gcc
+
+![GNU](img/gnu.png)
 
 ```plaintext
 /* Common hooks for AArch64.
@@ -113,9 +115,9 @@ The first contribution to this file was made in 2012, and significant updates ha
 
 After the copyright, there is the standard license header for the GNU General Public License (which is known as GPL) version 3 or later. The GPL states that if no version number is specified by the licensor, then the licensee can use any version of the GPL that has been published by the Free Software Foundation. For clarity, it is always a good practice to specify the version of the license the code is governed under, so the intent is clear. There are significant differences in terms between GPL v2 and GPL v3 and code that is specifically limited to GPL-2.0-only cannot be combined with code that is licensed under GPL-3.0.
 
-![GNU](img/gnu.png)
-
 ### Example: Nova
+
+![OpenStack](img/openstack.png)
 
 ```plaintext
 # Copyright 2010 United States Government as represented by the
@@ -147,8 +149,6 @@ Generally, redundant information is ok, as long as it is consistent.
 A specific and fairly common example of something that is inconsistent is a copyright notice and then an indication that the materials are public domain. Unless it is a US government created work, it is very unlikely to be successfully dedicated to the public domain. A copyright notice without a license statement indicates that there is a copyright holder, but there is no license granted unless otherwise stated in another place that applies to this file.
 
 It is not advised to change the header on someone else’s code, even when there is redundant information. The best policy is to contact the author and ask that person to fix it. Similarly, when there is inconsistent information, contact the author or authors and ask for clarification and update.
-
-![OpenStack](img/openstack.png)
 
 ### Example: Das U-Boot
 
