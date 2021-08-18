@@ -1,0 +1,30 @@
+// question: 21  name: q2.1
+::q2.1::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n<pre>/*\n* This Source Code Form is subject to the\n* terms of the Mozilla Public License, v.2.0.\n* If a copy of the MPL was not\n* distributed with this file, You can obtain\n* one at <a href\="http\://mozilla.org/MPL/2.0">http\://mozilla.org/MPL/2.0</a>\n*/</pre>{TRUE}
+
+
+// question: 22  name: q2.2
+::q2.2::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n```plaintext\n/*\n* SPDX\=GPL 3.0\n*/\n```{FALSE}
+
+
+// question: 23  name: q2.3
+::q2.3::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n```plaintext\n/*\n* GPL\n*/\n```{FALSE}
+
+
+// question: 24  name: q2.4
+::q2.4::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n<pre>/*\n* <a href\="http\://opensource.org/licenses/EPL-1.0">https\://opensource.org/licenses/EPL-1.0</a>\n*/</pre>{TRUE}
+
+
+// question: 25  name: q2.5
+::q2.5::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n```plaintext\n/*\n* SPDX-License-Identifier\: BSD-3-Clause\n*/\n```{TRUE}
+
+
+// question: 26  name: q2.6
+::q2.6::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n<pre>/*\n* This program is free software\: you can redistribute it and/or\n* modify it under the terms of the GNU Affero General Public License\n* as published by the Free Software Foundation, version 3.\n*\n* This program is distributed in the hope that it will be useful,\n* but WITHOUT ANY WARRANTY; without even the implied warranty of\n* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n* GNU Affero General Public License for more details.\n*\n* You should have received a copy of the GNU Affero General Public License\n* along with this program. If not, see <a href\="https\://www.gnu.org/licenses/">https\://www.gnu.org/licenses/</a>.\n*/</pre>{TRUE}
+
+
+// question: 27  name: q2.7
+::q2.7::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n```plaintext\n/*\n* The following code is dual-licensed under MIT and Apache-2.0.\n*/\n```{FALSE}
+
+
+// question: 28  name: q2.8
+::q2.8::[markdown]The following statement is an unambiguous and complete way to refer to the applicable license. True or False?\n\n```plaintext\n// Use of this source code is governed by a BSD-style\n// license that can be found in the LICENSE file.\n```{FALSE}

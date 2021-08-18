@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Open Source Licensing Basics for Software Developers (LFC191)
+Upstream-Contact: Andrzej Wójtowicz <andre@amu.edu.pl>
+Source: https://github.com/andre-wojtowicz/lfc191-pl
+
+Files: *.md knowledge-check/* img/fossology.png img/gnu.png img/kate-stewart.jpg img/licences-division.png img/license-choose.png img/linux-foundation-logo.jpg img/linux-foundation-training.png img/linux.jpg img/openstack.png img/steve-winslow.jpg
+Copyright: 2021 The Linux Foundation <compliancecoursefeedback@linuxfoundation.org>
+License: CC-BY-SA-4.0
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...

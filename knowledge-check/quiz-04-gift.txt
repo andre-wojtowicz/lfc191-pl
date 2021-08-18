@@ -1,0 +1,22 @@
+// question: 41  name: q4.1
+::q4.1::[markdown]A valid file notice for copyright and licensing information should appear\:{
+	~At the beginning of the file
+	~At the end of the file
+	=Anywhere in the file
+}
+
+
+// question: 42  name: q4.2
+::q4.2::[markdown]When adding significant intellectual work to an existing file you did not create, you should\:{
+	~Replace the file's copyright statement with your copyright statement
+	~Update the date of the existing copyright statement
+	=Add a new copyright statement
+}
+
+
+// question: 43  name: q4.3
+::q4.3::[markdown]When adding significant intellectual work to an existing file you did not create which uses the newer format, such as *Copyright Contributors to the XYZ Project*, which of the following **may** you do?{
+	~%-100%Replace the existing notice with your own copyright notice
+	~%50%Add a second notice with the year and name of copyright holder of the new contributions
+	~%50%Make no changes or additions to the notices
+}

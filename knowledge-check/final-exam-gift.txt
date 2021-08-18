@@ -1,0 +1,54 @@
+// question: 1  name: e1
+::e1::[markdown]What is the key difference between strong and weak copyleft licenses?{
+	~Code included in weak copyleft licensed code does need to inherit the weak copyleft license
+	=Works that link to other weak copyleft licensed code may not be required to be copyleft
+	~Permissive licensed code included in strong copyleft license work becomes weak copyleft
+}
+
+
+// question: 2  name: e7
+::e7::[markdown]Please select what makes this notice invalid.\n\n```plaintext\n/*\n* This file is subject to the terms and conditions of the Apache license.\n*\n* Copyright © 1995\n*/\n```{
+	~%50%An incorrect copyright statement
+	~%50%An ambiguous license reference
+	~%-100%The notice is valid
+}
+
+
+// question: 3  name: e8
+::e8::[markdown]When a developer (Chris Wright, for example) is submitting a patch to a project under the terms of the Developer's Certificate of Origin 1.1 (also known as the DCO), how should this be indicated?{
+	~<pre>Author\: Chris Wright</pre>
+	~<pre>Written-by\: Chris Wright</pre>
+	=<pre>Signed-off-by\: Chris Wright <cw@example.com></pre>
+	~<pre>Authored-by\: Chris Wright <cw@example.com></pre>
+}
+
+
+// question: 4  name: e9
+::e9::[markdown]Before accepting contributions from another developer, a new project on a public site (like GitHub) should\:{
+	~%25%Declare the license this project is to be governed under
+	~%25%Ensure each file has a valid copyright and license identified
+	~%25%Check that any imported code has a compatible license and the relevant licenses and copyrights are preserved at the file level with the imported code
+	~%25%Determine how the contributions will be accepted
+}
+
+
+// question: 5  name: e2
+::e2::[markdown]The following copyright statements are equivalent. True or False?\n\n```plaintext\nCopyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2009, Free Software Foundation, Inc.\n```\n\n```plaintext\nCopyright 2001-2006, 2009, Free Software Foundation, Inc.\n```\n\n```plaintext\n(c) 2001-2006, 2009, Free Software Foundation, Inc.\n```{TRUE}
+
+
+// question: 6  name: e3
+::e3::[markdown]The following copyright statements are equivalent. True or False?\n\n```plaintext\nCopyright 2001-2015, Free Software Foundation, Inc.\n```\n\n```plaintext\n(c) 2001-2004, 2005, 2006, 2008-2015, Free Software Foundation, Inc.\n```\n\n```plaintext\n(c) 2001-2015, Free Software Foundation, Inc.\n```{FALSE}
+
+
+// question: 7  name: e4
+::e4::[markdown]This is a valid notice. True or False?​\n\n```plaintext\n/* Copyright 2013, Alex Wright\n *\n * This file is licensed under BSD.\n */\n```{FALSE}
+
+
+// question: 8  name: e5
+::e5::[markdown]This is a valid notice. True or False?​\n\n```plaintext\n/* Copyright 2013, Linaro Limited\n * All rights reserved\n *\n * SPDX-License-Identifier\: BSD-3-Clause\n */\n```{TRUE}
+
+
+// question: 9  name: e6
+::e6::[markdown]This is a valid notice. True or False?​\n\n```plaintext\n\# Copyright (c) 2013 Hewlett-Packard Development Company, L.P.\n\#\n\# Licensed under the Apache License, Version 2.0 (the "License");\n\# you may not use this file except in compliance with the License.\n\# You may obtain a copy of the License at\n\# http\://www.apache.org/licenses/LICENSE-2.0\n\# Unless required by applicable law or agreed to in writing, software\n\# distributed under the License is distributed on an "AS IS" BASIS,\n\# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n\# implied.\n\# See the License for the specific language governing permissions and\n\# limitations under the License.\n```{TRUE}
+
+

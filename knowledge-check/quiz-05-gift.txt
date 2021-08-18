@@ -1,0 +1,29 @@
+// question: 51  name: q5.1
+::q5.1::[markdown]If you are employed by a company, but contributing to an upstream project on your own time, and the project requires a contributor agreement, what should you do before submitting?{
+	~Do nothing; it's ok to submit without bothering with paperwork
+	~Fill in an individual contributor agreement
+	~Fill in a corporate contributor agreement
+	=Consult with your manager or legal counsel
+	~None of the answers is correct
+}
+
+
+// question: 52  name: q5.3
+::q5.3::[markdown]Which of the following contribution mechanisms transfers ownership of the code from you (or your employer) to the project?{
+	~Contributor License Agreement
+	=Copyright Assignment
+	~Developer Certificate of Origin
+	~None of the answers is correct
+}
+
+
+// question: 53  name: q5.4
+::q5.4::[markdown]Which of the following is **not** a common type of Contributor License Agreement?{
+	~Corporate CLA
+	~Individual CLA
+	=Employee CLA
+}
+
+
+// question: 54  name: q5.2
+::q5.2::[markdown]The DCO requires your company to sign a contract with the project. True or False?{FALSE}

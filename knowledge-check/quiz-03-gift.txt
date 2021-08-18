@@ -1,0 +1,26 @@
+// question: 31  name: q3.1
+::q3.1::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* Copyright 2010, Linus Torvalds.\n*/\n```{TRUE}
+
+
+// question: 32  name: q3.2
+::q3.2::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* © 1510, Leonardo Da Vinci.\n*/\n```{FALSE}
+
+
+// question: 33  name: q3.3
+::q3.3::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* Copyright © 2012-2015, Free Software Foundation, Inc.\n*/\n```{TRUE}
+
+
+// question: 34  name: q3.4
+::q3.4::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* Copyright 2001-2003, 2005-2008, 2010-2012, 2014, Linux Foundation.\n*/\n```{TRUE}
+
+
+// question: 35  name: q3.5
+::q3.5::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, Free Software Foundation, Inc.\n*/\n```{TRUE}
+
+
+// question: 36  name: q3.6
+::q3.6::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* Copyright.\n*/\n```{FALSE}
+
+
+// question: 37  name: q3.7
+::q3.7::[markdown]The following statement is an unambiguous way to refer to copyrights. True or False?\n\n```plaintext\n/*\n* Copyright Contributors to the OpenColorIO project.\n*/\n```{TRUE}
