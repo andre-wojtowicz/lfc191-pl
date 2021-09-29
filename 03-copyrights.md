@@ -1,141 +1,141 @@
-# Copyrights
+﻿# Prawa autorskie
 
-## Introduction
+## Wprowadzenie
 
-### Section Overview
+### Przegląd rozdziału
 
-In this section, we will give an overview about what copyrights are, and how ownership of copyright can be described in software source code.
+W tym rozdziale przedstawimy w zarysie, czym są prawa autorskie i jak w kodzie źródłowym oprogramowania można opisywać własność praw autorskich.
 
-### Learning Objectives
+### Założenia rozdziału
 
-By the end of this section, you should be able to:
+W tym rozdziale nauczysz się, jak:
 
-* Explain what a copyright is.
-* Look up more information about the purpose of copyright.
-* Know ways to specify copyright notices in software source code.
+* wytłumaczyć, czym jest prawo autorskie,
+* wyszukiwać więcej informacji o celach praw autorskich,
+* informować o prawach autorskich w kodzie źródłowym oprogramowania.
 
-## Copyrights
+# Prawa autorskie
 
-### What Is a Copyright?
+### Czym są prawa autorskie?
 
-Copyright holders are those able to define the license under which an original work can be used. The license is also known as the "terms of use".
+Właścicielami praw autorskich są osoby uprawnione do określenia licencji na wykorzystanie oryginalnego utworu. Licencje są również nazywane „warunkami wykorzystania”.
 
-[Wikipedia’s](https://en.wikipedia.org/wiki/Copyright) definition has had the most eyes on it, so we will use it to define a copyright:
+Do zdefiniowania, czym są prawa autorskie, posłużymy się popularnym hasłem „Copyright” z [Wikipedii](https://en.wikipedia.org/wiki/Copyright):
 
-> Copyright is a legal right created by the law of a country that grants the creator of an original work exclusive rights for its use and distribution."
+> Copyright to prawo wynikające z krajowych przepisów gwarantujące twórcy oryginalnego dzieła wyłączne uprawnienia do korzystania z niego i dystrybuowania go.
 
-It is important to note that countries have their own copyright laws. To a certain extent, international treaties like the [Berne Convention](https://en.wikipedia.org/wiki/Berne_Convention) and the [Universal Copyright Convention](https://en.wikipedia.org/wiki/Universal_Copyright_Convention) have standardized the treatment, but local variations in law do exist.
+Należy podkreślić, że różne kraje mają własne przepisy praw autorskich. W pewnym zakresie umowy międzynarodowe takie jak [Konwencja berneńska](https://en.wikipedia.org/wiki/Berne_Convention) oraz [Powszechna Konwencja o Prawie Autorskim](https://en.wikipedia.org/wiki/Universal_Copyright_Convention) ujednoliciły podejście do tych przepisów, ale wciąż istnieją między nimi różnice.
 
-Original "work" can refer to creative, intellectual or artistic output. Software source code written by a person is considered an original work. Copyright does not cover the ideas or information, but rather how they are expressed (or written down). Ideas and algorithms can be covered by patent law instead. The work must be considered as original, rather than copied from somewhere else to be covered.
+Oryginalne „dzieło” może odnosić się do twórczego, intelektualnego lub artystycznego utworu. Kod źródłowy oprogramowania napisany przez człowieka uznaje się za oryginalne dzieło. Prawo autorskie nie obejmuje idei ani informacji, ale raczej sposób, w jaki są one wyrażone (czyli zapisane). Idee i algorytmy może obejmować za to prawo patentowe. Dzieło musi być uznane za oryginalne, a nie skopiowane z innego źródła, aby mogło objąć je prawo autorskie.
 
-![Copyright logo](img/copyright-logo.jpg)
+![logo Copyright](img/copyright-logo.jpg)
 
-Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/Copyright), used under [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+Pobrano z [Wikipedii](https://en.wikipedia.org/wiki/Copyright), na licencji [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
-### A Bit of History...
+### Odrobina historii...
 
-Copyrights were originally created to preserve the rights of authors, when printing presses started to produce books in quantity.
+Prawa autorskie pierwotnie stworzono, aby chronić prawa autorów, gdy prasy drukarskie umożliwiły masową produkcję książek.
 
-Great Britain was the first country to recognize the rights of authors. The Copyright Act of 1709, or [Statute of Anne](https://en.wikipedia.org/wiki/Statute_of_Anne), was the first law that recognized the rights of authors, compared to the rights of those that produced and sold copies of the work.
+Wielka Brytania była pierwszym krajem uznającym prawa autorów. [Statut Królowej Anny](https://en.wikipedia.org/wiki/Statute_of_Anne), był pierwszym przepisem uznającym prawa autorów w odróżnieniu od praw producentów i sprzedawców kopii dzieł.
 
-This original law has been reworked and refined over time as technologies changed, to give us our present system.
+Pierwotne przepisy zostały z czasem zmienione i udoskonalone wraz ze zmianami w technologii aż do postaci obecnej.
 
-![Statute of Anne](img/statute-of-anne.jpg)
+![Statut Królowej Anny](img/statute-of-anne.jpg)
 
-**Statute of Anne**. Retrieved from [Wikipedia](https://en.wikipedia.org/wiki/Statute_of_Anne), used under [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+**Status Królowej Anny**. Pobrano z [Wikipedii](https://en.wikipedia.org/wiki/Statute_of_Anne), na licencji [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
-### The US Definition of Copyright
+### Definicja praw autorskich w USA
 
-Over time, other countries have adopted the concept of copyright into their laws. One early adopter was the United States Constitution ([Article 1, Section 8](https://en.wikipedia.org/wiki/Copyright_Clause)): 
+Z biegiem czasu inne kraje przyjęły ideę prawa autorskiego do swoich systemów prawnych. Jednym z pierwszych były Stany Zjednoczone ([Artykuł 1, Ustęp 8 Konstytucji USA](https://en.wikipedia.org/wiki/Copyright_Clause)): 
 
-> To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.
+- popierać rozwój nauki i użytecznych umiejętności przez zapewnienie na określony czas autorom i wynalazcom wyłącznych praw do ich dzieł czy wynalazków; (Źródło: Konstytucja Stanów Zjednoczonych Ameryki. Tłum. Andrzej Pułło. Warszawa, Wydawnictwo Sejmowe, 2002)
 
-The United States government has refined copyright laws in the United States under Title 17 of the United States Code to be a form of protection for original works of authorship, including literary, dramatic, musical, architectural, cartographic, pantomimic, pictorial, graphic, sculptural and audiovisual creations.
+Rząd Stanów Zjednoczonych szczegółowo określił prawa autorskie w swoim kraju w Sekcji 17 United States Code jako formę ochrony oryginalnych utworów autorskich, w tym: twórczości literackiej, dramatycznej, muzycznej, architektonicznej, kartograficznej, pantomimicznej, malarskiej, graficznej, rzeźbiarskiej i audiowizualnej.
 
-Software written by a person is considered to be an original work of authorship, and specifically a literary work, so it falls into this area of the law.
+Oprogramowanie napisane przez człowieka jest uznawane za oryginalny utwór autorski, a konkretnie dzieło literackie, więc jest objęte tymi przepisami.
 
-Taken literally, copyright means the right to copy. Today, it is a convenient way to refer to a body of exclusive rights granted to the copyright owner for protection of their work.
+Copyright to dosłownie prawo do kopiowania. Dziś jest to wygodny sposób odnoszenia się do zbioru wyłącznych przepisów przyznawanych właścicielom praw autorskich w celu ochrony ich twórczości.
 
-Copyright protection does have limits. In the United States, it does not extend to any idea, procedure, process, system, principle or discovery. Similarly, facts such as names, titles, short phrases, slogans, familiar symbols, typographic variations, lettering, coloring and listing of contents or ingredients are not subject to copyright.
+Ochrona praw autorskich ma ograniczenia. W Stanach Zjednoczonych nie rozszerza się jej na żadne idee, procedury, procesy, systemy, zasady ani odkrycia. Podobnie fakty, takie jak nazwy, tytuły, krótkie frazy, slogany, powszechne symbole, warianty typograficzne, liternictwo, koloryzacja ani spisy treści i składników nie podlegają ochronie prawa autorskiego.
 
-### What About the International Definition of Copyright?
+### A co z międzynarodową definicją praw autorskich?
 
-Over time, as each country evolved its own copyright law, at the international level it became harder and harder to figure out what rights applied to work created in one country but copied and reproduced in another.
+Z czasem, gdy różne kraje tworzyły własne systemy praw autorskich, na poziomie międzynarodowym coraz trudniej było ustalić, jakie prawa stosują się do dzieł stworzonych w jednym kraju, ale kopiowanych i reprodukowanych w innym.
 
-In 1886, an international agreement was created in Berne, Switzerland, governing copyright. The [*Berne Convention for the Protection of Literary and Artistic Works*](https://en.wikipedia.org/wiki/Berne_Convention) requires those countries that have signed the convention to treat the copyright of works of authors from other signatory countries (known as members of the Berne Union) at least as well as those of its own nationals. This was also the first attempt to provide a minimum standard for copyright law. In particular, under the Berne Convention, copyright is automatic and need not be obtained through official registration with any government office. Up until this time, in some countries, registration with the government was required to be considered to hold copyright.
+W 1886 roku w Bernie w Szwajcarii podpisano międzynarodową umowę dotyczącą praw autorskich. The [*Konwencja berneńska o ochronie dzieł literackich i artystycznych*](https://en.wikipedia.org/wiki/Berne_Convention) wymaga od każdego z państw, które ją podpisały, aby autorzy z innych państw, które również są sygnatariuszami umowy (czyli innych członków Unii Berneńskiej), byli chronieni tak samo dobrze jak jego obywatele. Była to pierwsza próba zapewnienia minimalnych standardów praw autorskich. W szczególności na mocy Konwencji berneńskiej prawa autorskie nabywa się automatycznie i w celu ich uzyskania nie jest wymagana jakakolwiek urzędowa rejestracja. Wcześniej w niektórych krajach rejestracja w rządowym urzędzie była warunkiem przyznania praw autorskich.
 
-While registration is not needed to exercise copyright under the Berne Convention, in countries where the law provides for registrations, it does serve as evidence of a valid copyright and enables the copyright holder to seek statutory damages and reimbursement of attorney fees, when there is a dispute over the use of a copyrighted work.
+Mimo że rejestracja nie jest na mocy Konwencji berneńskiej wymagana, to w krajach, których przepisy przewidują możliwość rejestracji, jest to mechanizm potwierdzający nabycie praw autorskich, co pozwala ich właścicielowi dochodzić ustawowych odszkodowań i pokrycia kosztów obsługi prawnej w przypadku sporów dotyczących wykorzystania utworu objętego prawem autorskim.
 
-The issue of registration, and the period of time that copyright is valid for, were some of the reasons why the United States did not sign the Berne Convention until 1989. It was only able to do this after it changed its own copyright laws in 1988, over 100 years after the Berne Convention was created.
+Kwestia rejestracji oraz czas, przez który obowiązują prawa autorskie, to niektóre z powodów, przez które Stany Zjednoczone nie podpisały Konwencji berneńskiej aż do 1989 roku. Było to możliwe dopiero po zmianie w 1988 roku krajowych przepisów o prawie autorskim, 100 lat po uchwaleniu samej Konwencji.
 
-### Who Is a Copyright Holder?
+### Kim jest właściciel praw autorskich?
 
-The author of the work is generally considered to be the copyright holder. In situations where there are multiple authors, each has a set of rights to use or license the work, and they are commonly referred to as [rights holders](https://en.wiktionary.org/wiki/rightsholder).
+Ogólnie rzecz biorąc, uznaje się, że autor dzieła jest właścicielem praw autorskich. W sytuacjach, gdy autorów jest wielu, każdy otrzymuje prawa do wykorzystania i licencjonowania utworu i zazwyczaj określa się ich [właścicielami praw](https://en.wiktionary.org/wiki/rightsholder).
 
-Often, when the work was created in the course of the author’s employment, it is considered as a “work for hire” and the employer is the copyright holder. For example, the “Copyright, Designs, and Patents Act of 1988” (which is a United Kingdom law), provides that if a copyrighted work is made by an employee in the course of that employment, the copyright is automatically owned by the employer. This can be different in some jurisdictions, particularly in Europe, as an example.
+Często gdy do powstania dzieła dochodzi w wyniku pracy zawodowej jego autora, jest ono uznawane za „utwór wykonany na zlecenie” i to pracodawca jest właścicielem praw autorskich. Na przykład „Copyright, Designs, and Patents Act of 1988” (ustawa prawa w Zjednoczonym Królestwie) stanowi, że jeśli utwór objęty prawem autorskim został stworzony przez pracownika w ramach pracy zawodowej, to prawa autorskie są automatycznie przekazywane pracodawcy. W innych systemach prawnych może to wyglądać inaczej - świetnym przykładem jest tu Europa.
 
-The rights of the copyright holder can also be assigned to another organization or individual. Some jurisdictions around the world may have different positions on who owns a copyright, so you should always check with local counsel first.
+Własność praw autorskich może też zostać przeniesiona na inną organizację lub osobę. Systemy prawne w różnych częściach świata mogą różnie interpretować, kto jest właścicielem praw autorskich, więc zawsze należy konsultować się z lokalnym radcą prawnym.
 
-### Copyright Notices
+### Informacja o prawach autorskich
 
-Under the Berne Convention, an author doesn’t need to register their copyright in order to own it. The copyright exists upon the creation of the work. However, it is often still considered a good idea to insert a copyright notice in the body of the work, to make it clear that the work is copyrighted and provide guidance about who the copyright holders are. Additionally, some open source licenses are written with the expectation that a copyright notice will be present and should be reproduced in distributions of the software.
+Na mocy Konwencji berneńskiej autor nie ma obowiązku rejestrowania swoich praw autorskich. Utwór jest nimi chroniony od momentu powstania. Mimo to uznaje się za przydatne umieszczenie odpowiedniej noty (ang. „notice”) informującej o prawach autorskich w treści utworu, aby jasno określić, że utwór podlega ochronie praw autorskich, i podać, kto jest właścicielem tych praw. Przy tym niektóre licencje otwartego oprogramowana zakładają, że taka informacja zostanie umieszczona oraz będzie powielana w dalszych dystrybucjach oprogramowania.
 
-Copyright notices in open source software projects tend to follow one of two different categories of formats.
+Noty o prawach autorskich w projektach otwartego oprogramowania zazwyczaj stosują jeden z dwóch formatów.
 
-#### Historical Format
+#### Format historyczny
 
-Traditionally, copyright notices in open source software projects have tended to follow a model similar to the following:
+Tradycyjnie noty o prawach autorskich w projektach otwartego oprogramowania przyjmowały następującą (lub zbliżoną) formę:
 
 ```plaintext
 Copyright (C) 2001, 2004-2006 Company ABC.
 ```
 
-This format typically includes one or more of the following, in varying combinations:
+Składały się na nią różne kombinacje następujących elementów:
 
-* the word "Copyright"
-* the symbol "(C)" or ©
-* a year or series / range of years
-* the name of the individual or legal entity who is the copyright holder.
+* wyraz "Copyright"
+* symbol "(C)" lub ©
+* rok lub seria/ zakres lat
+* nazwa osoby fizycznej lub prawnej do której prawa należą.
 
-This format is generally similar to the form described in the US copyright laws in [17 U.S.C. § 401](https://www.law.cornell.edu/uscode/text/17/401). That section describes a format which, when used, may help in a US copyright infringement lawsuit if a defendant claims innocent infringement.
+Jest to format dość zbliżony do opisanego w przepisach o prawie autorskim USA [17 U.S.C. § 401](https://www.law.cornell.edu/uscode/text/17/401). Użycie opisanego tam formatu może być pomocne w przypadku dochodzenia praw przed sądem w USA, jeśli oskarżony dowodzi nieświadomego naruszenia praw autorskich (innocent infringement).
 
-The years in this format of notice are typically the year of first publication, along with years in which additional copyrightable content was contributed to the project or file.
+Lata w tym formacie to zazwyczaj rok pierwszej publikacji oraz lata, w których do projektu lub pliku dodawane były treści chronione prawem autorskim.
 
-This format is commonly seen in source code, including open source software. However, this format is not required in order for a person or legal entity to own a copyright. As mentioned earlier, the copyright will exist when the work is fixed in a tangible medium of expression, regardless of whether or how a notice is included.
+Jest to format często spotykany w kodzie źródłowym, również w otwartym oprogramowaniu. Użycie tego formatu nie jest jednak warunkiem przyznania praw autorskich osobie fizycznej lub prawnej. Jak powiedzieliśmy wcześniej, ochrona prawem autorskim zaczyna obowiązywać od momentu umieszczenia dzieła na materialnym nośniku bez względu na to, czy i w jakiej formie załączono informację o prawach autorskich.
 
-Additionally, when this form is used in other media besides software (such as a book or movie), it is more common that it is a single fixed work, published at a point in time with an easily-enumerable set of copyright holders. This may be less likely to be true for source code in open source software projects, which changes over time as existing and new contributors make changes to a project and its files. Because of this, the next format described below is becoming more common in some open source communities.
+Natomiast w przypadku stosowania tego formatu w mediach innych niż oprogramowanie (np. w książce lub filmie) bardziej powszechna jest sytuacja, kiedy mamy do czynienia z pojedynczym utworem w stałej postaci, opublikowanym w konkretnym czasie z łatwą do określenia listą właścicieli praw autorskich. W przypadku kodu źródłowego w projektach otwartego oprogramowania o to samo jest już trudniej. Zmienia się on przez cały czas, a nowi współpracownicy dokonują zmian w poszczególnych plikach projektu. Z tego powodu kolejny format, opisany poniżej, zyskuje popularność w niektórych społecznościach otwartego oprogramowania.
 
-Sometimes later contributors to the file do not update the year or list of owners in the notice when adding new copyrightable content. As a result, the specified notice might not be accurate for the file as a whole.
+Zdarza się, że kolejni współpracownicy nie uaktualniają lat ani listy właścicieli praw autorskich, dodając nowe objęte nimi treści. Prowadzi to do sytuacji, kiedy określona nota może nie opisywać właściwie całego pliku.
 
-#### Newer Format
+#### Nowszy format
 
-Copyright notices can take other forms besides the historical format. In newer open source projects which have (or expect to have) many different contributors, and where the contributors retain ownership of their contributions, some projects express copyright notices using a form similar to the following:
+Informacje o prawach autorskich często przybierają też formy inne od historycznej. W nowszych projektach otwartego oprogramowania, które mają (spodziewają się) wielu współpracowników, którzy zachowują własność dodanych przez siebie treści, często wykorzystywany jest format zbliżony do takiego:
 
 ```plaintext
 Copyright Contributors to the ___________ Project.
 ```
 
-or
+lub
 
 ```plaintext
 Copyright The ___________ Contributors.
 ```
 
-This format is intended to be a simple statement that the work is copyrighted; that the contributors of the code licensed it, but retain ownership of their copyrights; and that it was licensed for distribution as part of the specified project.
+Jego intencją jest przekazanie w prosty sposób, że utwór jest objęty ochroną praw autorskich, że autorzy kodu licencjonują go, ale zachowują własność praw autorskich, a sam kod jest dystrybuowany na licencji obowiązującej w określonym projekcie.
 
-This aims to make compliance easier by minimizing variations of notices that downstream recipients have to reproduce, in order to comply with the open source license. It also aims to ease the burden on developers who contribute to open source projects, by removing the need to remember to update copyright notices with every commit; or to make determinations about whether a particular commit should result in updating a date or adding a new notice.
+Ułatwia to zachowanie zgodności, zmniejszając do minimum różnorodne informacje, jakie kolejne osoby otrzymujące kod musiałyby powielać, aby nie naruszyć licencji otwartego oprogramowania. Pomaga to również odciążyć programistów biorących udział w projektach open source, zdejmując z nich obowiązek pamiętania o uaktualnianiu noty o prawach autorskich przy każdym zatwierdzeniu nowego kodu oraz podejmowania decyzji, czy każde zatwierdzenie zmian w kodzie wymaga zmiany dat lub nowej wersji noty.
 
-It also helps to remove the implication that the listed copyright holders comprise the entirety of all copyright owners in a particular project or file. When a single individual or legal entity is named in a copyright notice under the historical style, it is often the original contributor of that particular file. But as new people make contributions to the same project or file, they may not add their own copyright notice at the top of the file — even when they do in fact own the copyright to their contributions. As a result, using a notice in this newer format may in fact be more accurate than a list of specific contributors.
+Pomaga to również uniknąć implikacji, że lista właścicieli praw autorskich jest kompletna dla danego pliku lub całego projektu. W formacie historycznym, gdzie w informacji o prawach autorskich wymieniono jedną osobę lub organizację, jest to często jedynie pierwszy twórca danego pliku. Kolejne osoby współtworzące projekt lub plik mogą nie dodawać informacji o własnych prawach na początku pliku, mimo że faktycznie nabywają takie prawa do dodanych przez siebie treści. Właśnie dlatego użycie nowego formatu noty może być bardziej właściwe niż lista konkretnych współtwórców.
 
 ---
 
-If you are contributing to an open source project on behalf of your employer, you will likely want to speak with your company’s legal counsel to discuss whether there is a particular format of copyright notice that they require you to use.
+Jeśli bierzesz udział w projekcie otwartego oprogramowania w imieniu swojego pracodawcy, to byłoby dobrze skonsultować się z radcą prawnym twojej firmy i ustalić, czy obowiązuje cię jakiś konkretny format noty o prawach autorskich.
 
-### Examples of Copyright Notices
+### Przykłady not Copyright
 
-Here are some examples of copyright notices, in both the historical and newer formats described on the prior page.
+Oto kilka przykładów informacji o prawach autorskich zarówno w formacie historycznym, jak i nowszych, opisanych na poprzedniej stronie.
 
-#### Historical Format
+#### Format historyczny
 
 ```plaintext
 Copyright 1998, Linus Torvalds
@@ -149,7 +149,7 @@ Copyright 1998, Linus Torvalds
 Copyright (C) 2011, 2014-2019 Company ABC.
 ```
 
-#### Newer Format
+#### Nowszy format
 
 ```plaintext
 Copyright The Kubernetes Authors.
@@ -163,38 +163,38 @@ Copyright Contributors to the OpenVDB Project.
 Copyright the Hyperledger Fabric contributors.
 ```
 
-#### To Add or Not to Add Copyright Notices?
+#### Być albo nie być Noty Copyright
 
-It is frequently discussed by developers whether a copyright notice should be added or not. Our recommendation is that for a new file, the author should always add a copyright notice. This notice could be in the general, newer format as described above, or could include more of the traditional format details such as the date, copyright holder’s name, etc. When an author makes significant changes in an existing file, the copyright notice should be updated as well if the traditional format is being used.
+Programiści często dyskutują między sobą, czy informacje o prawach autorskich należy dodawać czy nie. My zalecamy, aby w każdym nowym pliku jego autor dodał notę. Może ona przybrać nowy, ogólny format, jaki opisaliśmy powyżej, albo zawierać bardziej tradycyjne informacje szczegółowe, takie jak data i nazwy właścicieli praw autorskich. Dokonując znacznych zmian w istniejących plikach, autor powinien zaktualizować notę, jeśli wykorzystuje format tradycyjny.
 
-Before 1989, the use of copyright notices was mandatory in the United States, as was registering copyrights. By adopting the terms of the Berne Convention, the United States had to modify its own laws to be able to conform. Since the Berne Convention makes copyright automatic, the use of copyright notices to claim copyright has become optional.
+Przed 1989 rokiem używanie not było w USA obowiązkowe, podobnie jak rejestrowanie praw autorskich. Przyjmując postanowienia Konwencji berneńskiej, USA były zmuszone dostosować swoje przepisy. Skoro dzięki Konwencji prawa autorskie nabywa się automatycznie, to i noty stały się opcjonalne.
 
-It is important to note that a third party’s copyright notice should never be modified or removed by anyone other than that third party, or at their direction. Regardless of the format that contributors to a project might use for their own notices, when reproducing content from a third party, their copyright notice should be provided in the format they have used and should only be modified or removed by them.
+Należy jednak zauważyć, że noty o prawach autorskich osób trzecich nie powinny być ani modyfikowane, ani usuwane przez nikogo poza nimi samymi (lub na ich żądanie). Bez względu na format stosowany przez osoby biorące udział w projekcie, reprodukując treści pochodzących od osób trzecich, należy zachować użyty przez nie format not i tylko one mają prawo zmieniać i usuwać własne noty. 
 
-Finally, if you are writing code that you are contributing to an open source software project, avoid including the phrase "All Rights Reserved". Many proprietary software files may contain this notice, and so programmers sometimes include it after copyright notices in open source software projects. There is no reason to think that its presence changes or undermines the rights that are granted by the open source license for that project. However, including that phrase is at best confusing, so it is better to omit it.
+I wreszcie: jeśli współtworzysz kod w projekcie otwartego oprogramowania, to raczej nie używaj sformułowania „All Rights Reserved” (Wszystkie prawa zastrzeżone). Pliki wielu programów komercyjnych mogą zawierać tę klauzulę i dlatego programiści czasem wklejają ją na końcu informacji o prawach autorskich w projektach open source. Nie ma żadnych przesłanek, aby myśleć, że dodanie tej frazy w jakikolwiek sposób zmienia lub podważa przepisy otwartej licencji stosowanej przez projekt. Co najwyżej użycie tego sformułowania prowadzi do zamieszania, więc lepiej go unikać.
 
-### REUSE Software Guidelines for Copyright Notices
+### Wytyczne REUSE Software dotyczące not Copyright
 
-In the earlier section on Licenses, we discussed the [REUSE Software Guidelines](https://reuse.software/spec/) and their recommendations for how to express license notices using SPDX short-form identifiers.
+W poprzednim rozdziale o licencjach mówiliśmy o [Wytycznych REUSE Software ](https://reuse.software/spec/) i ich rekomendacjach zapisywania informacji o licencjach za pomocą skróconych form identyfikatorów SPDX.
 
-REUSE also provides recommendations for how to express copyright notices in a file. Their recommendations generally follow the historical model, in that they require the inclusion of the names of the copyright holders, and encourage the inclusion of year of publication.
+REUSE podaje również rekomendacje, jak dodawać do pliku informacje o prawach autorskich. Są one ogólnie zgodne z formatem historycznym, ponieważ wymagają dołączenia nazwy właściciela praw autorskich i zachęcają do podania roku publikacji.
 
-In particular, REUSE also encourages the use of [SPDX file tags](https://github.com/spdx/spdx-spec/blob/development/v2.2/chapters/appendix-IX-file-tags.md) for copyright notices. SPDX file tags were added in version 2.2 of the SPDX specification, and they provide a format for per-file information in a single, easily searchable line, similar to SPDX short-form license identifiers. REUSE recommends using these to express copyright notices in files with the **SPDX-FileCopyrightText:** tag, as in the following examples:
+Co do szczegółów REUSE zachęca do informowania o prawach autorskich z wykorzystaniem [znaczników SPDX w plikach](https://github.com/spdx/spdx-spec/blob/development/v2.2/chapters/appendix-IX-file-tags.md). Znaczniki (tagi) plikowe zostały dodane w wersji 2.2 specyfikacji SPDX. Zapewniają one łatwy do przeszukiwania format zamieszczania w plikach informacji mieszczących się w pojedynczej linii, podobnie jak w przypadku skróconych identyfikatorów licencji SPDX. REUSE zaleca wykorzystanie znacznika **SPDX-FileCopyrightText:**do umieszczania informacji o prawach autorskich w plikach, tak jak w przykładach poniżej:
 
 ```plaintext
 SPDX-FileCopyrightText: 2019 Jane Doe
 ```
 
-or
+lub
 
 ```plaintext
 SPDX-FileCopyrightText: © 2019 John Doe 
 ```
 
-## Summary
+## Podsumowanie
 
-### Conclusion
+### Konkluzje
 
-You should now be able to understand what copyright means and why copyright notices appear in source code.
+Mamy nadzieję, że rozumiesz już, czym jest copyright i dlaczego w kodzie źródłowym pojawiają się informacje o prawach autorskich.
 
-You should be able to recognize the more "traditional" style of copyright notices as well as newer styles that may omit years or names of copyright holders, and you should be able to discuss with your own legal counsel if there is a preferred format for your employer’s contributions to open source projects.
+Potrafisz też już pewnie rozpoznawać bardziej „tradycyjne” style not copyright, jak również te nowsze, które mogą nie zawierać dat i nazwisk właścicieli praw autorskich. Wiesz już też, jak omówić ze swoim radcą prawnym kwestię preferowanego przez twojego pracodawcę formatu stosowanego przy współpracy w projektach open source.

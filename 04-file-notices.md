@@ -1,33 +1,33 @@
-# File notices
+﻿# Oznakowanie w plikach
 
-## Introduction
+## Wprowadzenie
 
-### Section Overview
+### Przegląd rozdziału
 
-A file notice is the information included in a software source file, indicating the copyright notice and the license.
+Oznakowanie w plikach to informacja załączona do pliku z kodem źródłowym obejmująca notę o prawach autorskich i licencję.
 
-The form of the copyright notice was summarized in Section 3. The form of the license reference was summarized in Section 2. Together the copyright notice and the license reference form a file notice.
+Forma not o prawach autorskich została omówiona w rozdziale 3. Forma informacji o licencji została omówiona w rozdziale 2. Nota copyright i określenie licencji tworzą łącznie oznakowanie w pliku.
 
-### Learning Objectives
+### Założenia rozdziału
 
-By the end of this section, you should be able to:
+W tym rozdziale nauczysz się, jak:
 
-* Explain what is needed to form a typical file notice.
-* Recognize some specific common examples that illustrate valid file notices.
+* określać, co jest potrzebne do stworzenia typowego oznakowania w plikach,
+* rozpoznawać niektóre typowe przykłady poprawnego oznakowaniach w plikach.
 
-## File Notices
+# Oznakowanie w plikach
 
-### What Are Valid File Notices?
+### Czym jest poprawne oznakowanie w plikach?
 
-What are valid file notices? Valid file notices have the following characteristics: they define in a clear manner the license that the file is governed by, and may include information or references to copyright holders. A file notice may also provide additional information about authorship, when the author is not the copyright holder.
+Czym jest poprawne oznakowanie w plikach? Poprawne oznakowanie charakteryzuje się jasnym określeniem licencji, którą objęty jest plik, i może zawierać informacje lub odniesienia do właścicieli praw autorskich. Oznakowanie w pliku może również podawać dodatkowe informacje o autorstwie, kiedy autor nie jest właścicielem praw.
 
-If a file notice contains this information using an unambiguous license reference, then this key information can be machine detectable.
+Jeżeli oznakowanie podaje takie informacje za pomocą jednoznacznego odniesienia do licencji, to mogą być one wykrywane automatycznie.
 
-Enabling licensing information to be machine detectable greatly improves the handling of compliance information. It also makes it easier for those using open source software to understand the terms of using it, and to know who to ask questions of when something is ambiguous.
+Pozwala to znacznie usprawnić obsługę zgodności. Ułatwia również użytkownikom otwartego oprogramowania zrozumienie warunków wykorzystywania go i informuje, gdzie kierować pytania w razie wątpliwości.
 
-By convention, file notices are usually placed at the start of the file.
+Zgodnie z konwencją oznakowanie umieszcza się na początku pliku.
 
-### Example: Linux
+### Przykład: Linux
 
 ![Linux](img/linux.jpg)
 
@@ -45,15 +45,15 @@ By convention, file notices are usually placed at the start of the file.
  */
  ```
 
-The first [example](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/arm64/kernel/acpi.c) we will look at is from the Linux operating system. In this file, `acpi.c,` the named copyright holder is Linaro. The use of "Copyright" and the copyright symbol is redundant, but not a major issue. The work was originally published in 2013, and there were significant updates to it in 2014. This is indicated by the use of a date range. The copyright statement consists of that single line.
+Pierwszy [przykład](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/arm64/kernel/acpi.c), któremu się przyjrzymy, pochodzi z systemu operacyjnego Linux. W pliku `acpi.c` oznaczonym właścicielem praw autorskich jest Linaro. Użycie słowa "Copyright" jednocześnie z odpowiadającym mu symbolem to przesada, ale nie stanowi poważnego problemu. Pierwotna data publikacji to 2013, ale w 2014 dodano wiele znaczących zmian. Oznaczono to, wykorzystując zakres dat. Określenie praw autorskich mieści się w jednej linii.
 
-As a nicety (but not an official part of the copyright statement), there are five authors who have contributed to this file that are willing to be contacted if there are questions. This is indicated by the listing of their full name and email addresses. The authors in this case are not the copyright holders, as the work was done for hire as part of their employment with Linaro, which is why Linaro is indicated as the copyright holder.
+Wymienienie pełnych nazwisk i adresów mailowych pięciu autorów, którzy przyczynili się do powstania tego pliku i godzą się na kontakt w przypadku pytań, jest pomocne, ale nie należy do oficjalnej części informacji o prawach autorskich. W tym przypadku autorzy nie są właścicielami praw autorskich. Wykonywali swoją pracę na rzecz pracodawcy - Linaro - i dlatego to właśnie Linaro jest wskazane jako właściciel praw autorskich.
 
-The license here is the GPL version 2. This is indicated by the use of an SPDX short-form identifier in the first line of the file.
+Użyta tu licencja to wersja 2 GPL. Oznaczono to przez umieszczenie w pierwszej linii pliku skróconego identyfikatora SPDX.
 
-As a point of interest, if you look at the [git log history for this file](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/arch/arm64/kernel/acpi.c), you can see that many changes have been made to this file since 2014. Some of these changes were minor tweaks or even deletions without adding content, but some were of significant length (with a few >100 lines of code). If those subsequent additions contained copyrightable content, then the "2013-2014" year range in the copyright notice may be incomplete. Also, if any of the subsequent contributors were not employed by Linaro, then the copyright notice may not accurately list all copyright holders. This reflects how reliance solely on the copyright notice may be misleading or insufficient, if you are looking to understand the full copyright ownership context for a file or project.
+Co ciekawe, jeśli spojrzysz na [zapis historii git dla tego pliku](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/arch/arm64/kernel/acpi.c), to zobaczysz wiele zmian w pliku po roku 2014. Niektóre z nich to drobne usprawnienia, a nawet usunięcia (bez dodania treści), ale część miała znaczą długość (a kilka powyżej 100 linii kodu). Gdyby te dodane treści były przedmiotem praw autorskich, to podany zakres lat „2013-2014” byłby niekompletny. A gdyby którykolwiek z kolejnych współtwórców nie był zatrudniony przez Linaro, to informacja o prawach autorskich nie podawałaby prawidłowej listy właścicieli praw. Pokazuje to, dlaczego poleganie wyłącznie na nocie copyright może wprowadzać w błąd albo nie wystarczyć do pełnego zrozumienia własności praw autorskich w kontekście pliku lub całego projektu.
 
-### Example: FOSSology
+### Przykład: FOSSology
 
 ![FOSSology](img/fossology.png)
 
@@ -77,11 +77,11 @@ As a point of interest, if you look at the [git log history for this file](https
  ***************************************************************/
 ```
 
-In another [example](https://github.com/fossology/fossology/blob/master/src/nomos/agent/list.c), this one from FOSSology, the standard header indicating the license as GPL version 2 is placed after the copyright statements.
+W kolejnym [przykładzie](https://github.com/fossology/fossology/blob/master/src/nomos/agent/list.c), zaczerpniętym z FOSSology, standardowy nagłówek wskazujący na wersję 2 licencji GPL jest umieszczony po określeniu praw autorskich.
 
-In this file, the full official text from the standard license header was used. The SPDX identifier was used in the other example, but in either case, it’s pretty clear that the license the file is governed under is GPL version 2, which is the important thing.
+W tym pliku użyto również pełnego oficjalnego tekstu standardowego nagłówka licencji. W innym przykładzie użyto identyfikatora SPDX, ale tak czy inaczej wiadomo, że obowiązującą licencją jest wersja 2 GPL, a to się liczy przede wszystkim.
 
-### Example: gcc
+### Przykład: gcc
 
 ![GNU](img/gnu.png)
 
@@ -107,15 +107,15 @@ In this file, the full official text from the standard license header was used. 
     <http://www.gnu.org/licenses/>.  */
 ```
 
-In this [example](https://github.com/gcc-mirror/gcc/blob/master/gcc/common/config/aarch64/aarch64-common.c), `aarch64-common.c`, the GNU project requires copyright assignment as part of the terms of contribution, so the copyright is assigned to the Free Software Foundation from ARM Ltd. The "Contributed by ARM Ltd." statement is not a copyright statement, but additional information about authorship.
+W tym [przykładzie](https://github.com/gcc-mirror/gcc/blob/master/gcc/common/config/aarch64/aarch64-common.c), `aarch64-common.c`, projekt GNU wymaga przypisania praw autorskich w ramach warunków uznania autorstwa, więc prawa autorskie zostały przypisane do Free Software Foundation przez ARM Ltd. Sformułowanie "Contributed by ARM Ltd." nie jest określeniem praw autorskich, a jedynie dodatkową informacją o autorstwie.
 
-The copyright statement has the redundant use of Copyright and © here, but that is ok.
+Informacja o prawach autorskich znów niepotrzebnie używa zarówno słowa „Copyright”, jak i symbolu ©, ale to nic nie szkodzi.
 
-The first contribution to this file was made in 2012, and significant updates happened in 2013, 2014 and 2015 as the new ARM64 architecture information was contributed. This range of dates is indicated by 2012-2015.
+Pierwsze treści zostały dodane do tego pliku w 2012 roku, a znaczące uaktualnienia następowały w 2103, 2014 i 2015 wraz z dodawaniem nowych informacji o architekturze ARM64. Wskazuje na to zakres dat 2012-2015.
 
-After the copyright, there is the standard license header for the GNU General Public License (which is known as GPL) version 3 or later. The GPL states that if no version number is specified by the licensor, then the licensee can use any version of the GPL that has been published by the Free Software Foundation. For clarity, it is always a good practice to specify the version of the license the code is governed under, so the intent is clear. There are significant differences in terms between GPL v2 and GPL v3 and code that is specifically limited to GPL-2.0-only cannot be combined with code that is licensed under GPL-3.0.
+Po informacji o prawach autorskich znajduje się standardowy nagłówek licencji GNU General Public License (znanej jako GPL) w wersji 3 lub nowszych. Zgodnie z GPL, jeśli licencjodawca nie określił numeru wersji, licencjobiorca ma prawo korzystać z dowolnej wersji GPL opublikowanej przez Free Software Foundation. Określanie numeru wersji licencji to dobra praktyka, ponieważ jasno komunikuje intencje. Różnice między licencjami GPL v2 i GPL v3 są znaczne i kod, którego wykorzystanie jest ograniczone tylko do wersji 2 (GPL-2.0-only), nie może być łączony z kodem na licencji GPL 3.0.
 
-### Example: Nova
+### Przykład: Nova
 
 ![OpenStack](img/openstack.png)
 
@@ -138,19 +138,19 @@ After the copyright, there is the standard license header for the GNU General Pu
 #    under the License.
 ```
 
-Another common open source family of projects is [OpenStack](https://docs.openstack.org/keystone/10.0.2/10.0.2/_modules/keystone/common/authorization.html). Nova is one of the projects in this family.
+Inną popularną rodziną projektów otwartego oprogramowania jest [OpenStack](https://docs.openstack.org/keystone/10.0.2/10.0.2/_modules/keystone/common/authorization.html). Należy do niej projekt Nova.
 
-This license file for this project was created in 2010, and is copyrighted by the US Government. In 2011, Justin Barbara made significant changes to the project and is asserting copyright as well.
+Plik licencji dla tego projektu powstał w 2010 i jest objęty prawami autorskimi rządu USA. W 2011 Justin Barbara dokonał w projekcie istotnych zmian i jego prawa autorskie również są oznaczone.
 
-After the copyright notices, the Apache 2.0 License standard header is used to indicate the license the project is governed under. The standard header contains a web URL, where the text of the license can be found, which is included in some standard headers. After the explicit specification of "Licensed under the Apache License, Version 2.0", including the web link is redundant, but it is part of the Apache standard header, so it’s fine.
+Po informacjach o prawach autorskich umieszczono standardowy nagłówek Apache 2.0 License, aby określić licencję projektu. Standardowe nagłówki zawierają czasami URL prowadzący do tekstu licencji. Po jednoznacznym określeniu "Licensed under the Apache License, Version 2.0” dołączanie linku jest już niepotrzebne, ale skoro jest on częścią standardowego nagłówka Apache, to niech już tak zostanie.
 
-Generally, redundant information is ok, as long as it is consistent.
+Ogólnie rzecz biorąc, powielone informacje nie przeszkadzają, o ile są zgodne ze sobą.
 
-A specific and fairly common example of something that is inconsistent is a copyright notice and then an indication that the materials are public domain. Unless it is a US government created work, it is very unlikely to be successfully dedicated to the public domain. A copyright notice without a license statement indicates that there is a copyright holder, but there is no license granted unless otherwise stated in another place that applies to this file.
+Konkretnym i dość typowym przykładem niezgodności jest dodanie informacji o prawach autorskich jednocześnie z deklaracją, że materiały są w domenie publicznej. O ile nie jest to praca stworzona przez rząd USA, to przeznaczenie jej do domeny publicznej jest bardzo mało prawdopodobne. Informacja o prawach autorskich bez określenia licencji oznacza, że istnieje właściciel praw, ale - o ile nie zaznaczono inaczej w innym miejscu dotyczącym danego pliku - to nie ma żadnej przyznanej licencji.
 
-It is not advised to change the header on someone else’s code, even when there is redundant information. The best policy is to contact the author and ask that person to fix it. Similarly, when there is inconsistent information, contact the author or authors and ask for clarification and update.
+Nie zalecamy zmieniania nagłówków w kodzie innych osób, nawet jeśli są tam powielone te same informacje. Najlepszą metodą jest kontaktowanie się z autorami i proszenie ich o dokonanie zmian. Podobnie, jeśli podane informacje są sprzeczne, skontaktuj się z autorami i poproś o wyjaśnienia i poprawki.
 
-### Example: Das U-Boot
+### Przykład: Das U-Boot
 
 ```plaintext
 /* SPDX-License-Identifier: GPL-2.0+ */
@@ -164,15 +164,15 @@ It is not advised to change the header on someone else’s code, even when there
  */
 ```
 
-In recent years, some projects have started to adopt the use of SPDX short form license identifiers, to indicate clearly which license is in effect in a file.
+W ostatnich latach niektóre projekty zaczęły korzystać ze skróconych identyfikatorów SPDX, aby jasno określić, jaka licencja obowiązuje dla danego pliku.
 
-In this [example](https://github.com/u-boot/u-boot/blob/master/include/post.h), the file was created in 2002 by Wolfgang Denk, as part of his work at DENX Software Engineering. It is not clear from this copyright statement whether he owns it as an individual (Wolfgang Denk) or as an organization (DENX Software Engineering), so contacting
+W tym [przykładzie](https://github.com/u-boot/u-boot/blob/master/include/post.h) plik został utworzony w 2002 przez Wolfganga Denka, w ramach pracy dla DENX Software Engineering. Nie da się jasno stwierdzić, czy właścicielem praw autorskich jest on sam (Wolfgang Denk) czy organizacja (DENX Software Engineering), 
 
-Wolfgang might be required to clarify this if he stopped working for DENX Software Engineering in the future. In 2010, Michael Zaidman from Kodak made significant changes and added his copyright. Here, Kodak is likely the copyright holder, but Michael Zaidman may own the copyright too, depending on his employment contract.
+więc aby to wyjaśnić i dowiedzieć się, czy nie przestał później pracować dla DENX Software Engineering, należy się z nim skontaktować. W 2010 Michael Zaidman z Kodaka dodał znaczące zmiany i dołączył informację o prawach autorskich. W tym przypadku wydaje się, że właścicielem praw jest Kodak, ale w zależności od formy zatrudnienia może też nim być Michael Zaidman.
 
-After this, you see the SPDX-License-Identifier which is "GPL-2.0+". This is a short form that has been standardized by the SPDX legal group, as a common way to refer to the GPL version 2 or later license. As discussed earlier, in the past couple of years, with input from the Free Software Foundation, the GNU family of licenses have shifted to use either "GPL-2.0-only" or "GPL-2.0-or-later" for their short identifiers, rather than "GPL-2.0+" which is still valid but is deprecated. So the example shown here could be updated to use the new format. The full list of all SPDX short form identifiers can be found on the [SPDX web site](https://spdx.org/licenses/). The full text of the license is available on that site, as well as links to where the original text was copied from.
+Następnie widzimy SPDX-License-Identifier wskazujący na "GPL-2.0+". Jest to skrócony format ujednolicony przez SPDX, powszechnie odnoszący się do licencji GPL w wersji 2 lub nowszych. Jak mówiliśmy wcześniej, w ciągu kilku ostatnich lat, we współpracy z Free Software Foundation, rodzina licencji GNU zmieniła skrócone oznaczenia na "GPL-2.0-only" lub "GPL-2.0-or-later" zamiast "GPL-2.0+", które - mimo że nadal poprawne - jest już przestarzałe. A zatem powyższy przykład można by uaktualnić do nowego formatu. Pełną listę skróconych identyfikatorów zawiera [strona internetowa SPDX](https://spdx.org/licenses/). Są tam również skopiowane pełne teksty licencji wraz z linkami do oryginalnych.
 
-### Example: Zephyr
+### Przykład: Zephyr
 
 ```plaintext
 /*
@@ -182,12 +182,12 @@ After this, you see the SPDX-License-Identifier which is "GPL-2.0+". This is a s
  */
 ```
 
-In this [example](https://github.com/zephyrproject-rtos/zephyr/blob/master/kernel/sched.c), the file `sched.c` was created in 2018 by someone working for Intel, so the original copyright notice specifies Intel Corporation. Since the file was created, 30 individuals can be seen to have participated in adding content to this file, some who may not be working for Intel.
+W tym [przykładzie](https://github.com/zephyrproject-rtos/zephyr/blob/master/kernel/sched.c) plik `sched.c` utworzył w 2018 ktoś pracujący dla Intela, więc pierwotna informacja o prawach autorskich wskazuje na Intel Corporation. Od czasu utworzenia pliku 30 osób dodawało do niego treści i niektóre z nich być może nie są pracownikami Intela.
 
-The license the file is under is the Apache 2 license, which is denoted here by use of an SPDX identifier "Apache-2.0".
+Licencją pliku jest Apache 2, co określa użycie identyfikatora "Apache-2.0".
 
-## Summary
+## Podsumowanie
 
-### Conclusion
+### Konkluzje
 
-This section explained what is needed to form a typical file notice and provided some specific common examples to illustrate valid file notices.
+Ten rozdział wyjaśnił, z czego składa się typowe oznaczenie w pliku, i podał kilka konkretnych przykładów przedstawiających poprawne oznaczenia.
