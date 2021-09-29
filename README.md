@@ -1,6 +1,6 @@
 ﻿# Podstawy licencjonowania otwartego oprogramowania dla programistów (LFC191-pl)
 
-Ponieważ otwarte oprogramowanie jest teraz wszędzie tam, gdzie komputery to dobra znajomość praktyk licencjonowania open source i zagadnień zgodności jest kluczowa. Ten kurs stworzyliśmy po to, aby nauczyć programistów i twórców oprogramowania, jak ważne jest dodawanie informacji o licencjach i prawach do kodu oraz jak to robić.
+Otwarte oprogramowanie jest teraz wszędzie tam, gdzie komputery, więc dobra znajomość praktyk licencjonowania open source i zagadnień zgodności jest kluczowa. Ten kurs stworzyliśmy po to, aby nauczyć programistów i twórców oprogramowania, jak ważne jest dodawanie informacji o licencjach i prawach do kodu oraz jak to w praktyce robić.
 
 ## Podsumowanie informacji o kursie
 
@@ -37,3 +37,5 @@ Do wzięcia udziału w tym kursie nie jest wymagane wcześniejsze szkolenie ani 
 Copyright 2016-2021, The Linux Foundation.
 
 Ten kurs jest objęty licencją [Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/), za wyjątkiem treści z innych źródeł oznaczonych osobnymi licencjami.
+
+Tłumaczenie zostało sfinansowane przez [Wydział Matematyki i Informatyki Uniwersytetu im. Adama Mickiewicza w Poznaniu](https://wmi.amu.edu.pl/).
