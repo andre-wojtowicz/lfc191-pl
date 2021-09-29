@@ -1,134 +1,134 @@
-# Course Introduction
+﻿# Wstęp do kursu
 
-## Course Information
+## Informacje o kursie
 
-### Course Introduction
+### Wstęp do kursu
 
-**Welcome to the Open Source Licensing Basics for Software Developers (LFC191) course!**
+**Witaj na kursie Podstaw licencjonowania otwartego oprogramowania dla programistów (LFC191-pl)!**
 
-Understanding how copyright and licenses work, and being able to clearly and accurately specify them, is key to ensuring that your contributions are acceptable for open source projects to use, and that licensing statements reflect your intentions correctly.
+Zrozumienie, jak działają prawa autorskie i licencje, oraz umiejętność ich jasnego i dokładnego określania są kluczowe, jeśli chcesz, aby twój wkład w projekty otwartego oprogramowania (open source) został zaakceptowany i nadawał się do wykorzystania oraz aby zapisy licencji były zgodne z twoimi intencjami.
 
-Licenses give those who want to use your code permission in advance. The actual permissions granted are spelled out in the selection of a license that the copyright holder chooses.
+Licencje z góry udzielają zgody na wykorzystanie twojego kodu każdemu, kto chce z niego skorzystać. Konkretne zgodny są określane poprzez wybór licencji przez właściciela praw.
 
-This course is designed to help software developers, and those involved in producing software that will be used or distributed, to understand why it is important to add information about licenses and copyrights to their code, as well as how to do so.
+Ten kurs stworzyliśmy po to, aby pomóc programistom i innym osobom biorącym udział w tworzeniu oprogramowania przeznaczonego do szerszego użytku i dystrybucji. Dzięki niemu zrozumiesz, jak ważne jest dodanie informacji o licencjach i prawach do kodu oraz jak to zrobić.
 
-It also provides information on how to create file notices with copyright and license statements. Being able to minimize problems and ambiguity is useful for internal corporate projects, as well as for contributing to open source projects.
+Kurs zawiera również informacje na temat tworzenia oznaczeń o uznaniu autorstwa i zapisach licencji. Wiedza, jak unikać problemów i niejednoznaczności, przydaje się zarówno w wewnętrznych projektach firmowych, jak i w projektach otwartego oprogramowania.
 
-An overview of the types of licenses to consider, as well as the mechanisms for contributing code, is also summarized.
+Przedstawiliśmy również przegląd wartych rozważenia typów licencji oraz mechanizmów współtworzenia kodu.
 
-### Course Learning Objectives
+### Założenia kursu
 
-By the end of this course, you should be able to:
+Biorąc udział w kursie, będziesz mieć szansę:
 
-* Understand why it is important to add copyright and licenses to code.
-* Know how to do so efficiently.
-* Understand the mechanisms used when contributing code to a project.
+* zrozumieć, dlaczego dodawanie informacji o uznaniu autorstwa i licencjach do kodu jest ważne,
+* dowiedzieć się, jak zrobić to sprawnie i skutecznie,
+* zrozumieć mechanizmy używane przy współtworzeniu kodu w projekcie.
 
-### Meet Your Instructors
+### Poznaj instruktorów
 
 #### Kate Stewart
 
 ![Kate Stewart](img/kate-stewart.jpg)
 
-Kate Stewart is a Senior Director of Strategic Programs, responsible for the Open Compliance program encompassing the SPDX, FOSSology, OpenChain, and other compliance related projects. Kate was one of the founders of SPDX in 2010, and is currently the specification lead. Since joining the Linux Foundation, she has also launched Real-Time Linux, Zephyr, CHAOSS, ELISA and ACT Projects.
+Kate Stewart jest Starszym Dyrektorem Programów Strategicznych i dopowiada za program Open Compliance, w skład którego wchodzą SPDX, FOSSology, OpenChain oraz inne projekty związane ze zgodnością. Kate była jedną z osób tworzących SPDX w 2010 r., a obecnie odpowiada za specyfikację. W ramach współpracy z Linux Foundation uruchomiła projekty Real-Time Linux, Zephyr, CHAOSS, ELISA oraz ACT.
 
-With over 30 years of experience in the software industry, she has held a variety of roles and worked as a developer in Canada, Australia, and the US and for the last 20 years has managed software development teams in the US, Canada, UK, India, and China. She received her Master’s in computer science from University of Waterloo and Bachelor’s of computer science (co-op program) from the University of Manitoba.
+Przez ponad 30 lat pracy w sektorze oprogramowania pełniła wiele funkcji i pracowała jako programistka w Kanadzie, Australii i USA, a przez ostatnie 20 lat zarządzała zespołami programistów w USA, Kanadzie, Zjednoczonym Królestwie, Indiach i Chinach. Ukończyła studia drugiego stopnia w zakresie informatyki na University of Waterloo oraz pierwszego (w programie stażowym typu co-op) na University of Manitoba.
 
 #### Steve Winslow
 
 ![Steve Winslow](img/steve-winslow.jpg)
 
-Steve Winslow is Director of Strategic Programs at the Linux Foundation. He runs the Linux Foundation’s license scanning and analysis support program, advising open source projects about licenses identified in their source code and dependencies. Steve is the co-lead of the SPDX legal team, and is also involved with projects such as FOSSology and the Community Data License Agreement; manages the Linux Foundation’s trademark program; and assists on other legal, policy and governance matters for projects.
+Steve Winslow jest Dyrektorem Programów Strategicznych w Linux Foundation. Prowadzi program skanowania i wsparcia analiz licencji w Linux Foundation, doradzając projektom otwartego oprogramowania w sprawach licencji określonych w ich kodzie źródłowym i zależnościach. Steve współprowadzi zespół prawny SPDX, a także bierze udział w projektach takich jak FOSSology i Community Data License Agreement, kieruje programem znaków zastrzeżonych Linux Foundation oraz pomaga w innych projektach w zakresie zagadnień prawnych, wytycznych i zarządzania.
 
-### Course Audience and Requirements
+### Uczestnicy i wymagania kursu
 
-This course is designed to help software developers and those involved in producing software that will be distributed, as well as anyone interested in contributing to open source projects.
+Ten kurs stworzyliśmy po to, aby pomóc programistom i innym osobom biorącym udział w tworzeniu oprogramowania przeznaczonego do dalszej dystrybucji oraz każdemu, kto chciałby współtworzyć projekty otwartego oprogramowania.
 
-No previous experience is required.
+Doświadczenie nie jest wymagane.
 
-### Why Bother with Licenses and Copyright in Code?
+### Po co zawracać sobie głowę licencjami i prawem autorskim przy kodowaniu?
 
 ![XKCD: Copyright](img/xkcd-14.jpg)
 
-Retrieved from [xkcd.com](https://xkcd.com/14/), provided under [CC-BY-NC-2.5](https://creativecommons.org/licenses/by-nc/2.5/).
+Pobrano z [xkcd.com](https://xkcd.com/14/), na licencji [CC-BY-NC-2.5](https://creativecommons.org/licenses/by-nc/2.5/).
 
-A **license** lets people know how code can be used, and how it can be combined with other software.
+**Licencja** informuje o tym, jak można wykorzystywać kod i jak łączyć go z innym oprogramowaniem.
 
-The image above is an early xkcd image. Because the creator had specified a license for it, after reading the terms, we know we can include it in this course while respecting the rights of the creator.
+Powyższy obrazek pochodzi z początków xkcd. Ponieważ twórca określił jego licencję, po zapoznaniu się z nią wiemy, że możemy dodać go do tego kursu, nie naruszając przy tym praw twórcy.
 
-As this course is freely available with the purpose of education, and because attribution has been provided, it abides by the terms of the CC-BY-NC 2.5 license. The purpose of this course is not for monetary compensation or commercial purposes, it is for education, so we can include this image to illustrate the point.
+Skoro ten kurs jest dostępny za darmo w celach edukacyjnych i ponieważ zaznaczyliśmy, kto jest autorem obrazka, postępujemy zgodnie z licencją CC-BY-NC 2.5. Celem tego kursu nie jest osiągnięcie korzyści majątkowych ani wykorzystanie komercyjne - służy on edukacji, więc możemy zamieścić ten obrazek, żeby pokazać, o co nam chodzi.
 
-The purpose of stating a license is to give people who want to use your work, permission in advance.
+Celem określenia licencji jest udzielenie z góry zgody osobom chcącym wykorzystać twoją pracę.
 
-Much of the technology infrastructure we take for granted today is due to the licensing decisions specific copyright holders made. So, if you want to use someone’s work, please respect the license they choose to make it available under.
+Dużą część infrastruktury technicznej, z której korzystamy na co dzień bez zastanowienia, zawdzięczamy wcześniejszym decyzjom licencyjnym konkretnych właścicieli praw autorskich. Więc jeśli chcesz skorzystać z czyjejś pracy, to prosimy: uszanuj licencję, którą wybrali.
 
-Many software and hardware developers will encounter open source materials on the job or in personal projects.
+Wielu twórców oprogramowania i sprzętu komputerowego napotka materiały open source w pracy i prywatnych projektach.
 
-Open source materials can include things like software, hardware designs, tools, documents, audio recordings, and image files.
+Do materiałów open source mogą należeć oprogramowanie, projekty urządzeń, narzędzia, dokumenty, nagrania audio i pliki graficzne.
 
-Although open source materials are usually freely available, they are typically provided under a stated license. The license chosen is what permits project material to be considered as "open source", and the **copyright holder** for the material is the decider of the license.
+Mimo że materiały open source są zazwyczaj wolnodostępne, zazwyczaj udostępniane są na określonej licencji. Dzięki wybranej licencji materiały można uznać za pochodzące z „otwartego źródła” (open source), a o wyborze licencji dla nich decyduje właśnie **właściciel praw autorskich**.
 
-Copyright is established by national laws, and gives the copyright holder some exclusive rights to control a creative work’s use and distribution.
+Prawa autorskie (copyright) są oparte na przepisach poszczególnych krajów i nadają właścicielowi praw pewne wyłączne uprawnienia do kontroli wykorzystania i dystrybucji jego utworu.
 
-Copyright holders have exclusive rights to their creative expression. Copyright is used to protect tangible forms of expression, which are sometimes referred to as original works of authorship.
+Właściciele praw autorskich mają wyłączne prawo do własnej twórczości. Prawa autorskie są wykorzystywane do ochrony konkretnych form twórczości, czasem określanych też jako utwór autorski.
 
-Normally, we think of copyrights protecting things like books, movies, music, maps, and art. Copyright can also be used to protect the expression of hardware designs and software, as well as other creative works.
+Zazwyczaj myślimy o prawach autorskich jako ochronie rzeczy takich jak książki, filmy, muzyka, mapy i dzieła sztuki. Prawa autorskie mogą chronić też projekty sprzętu i oprogramowanie oraz inne dzieła twórcze.
 
-The rights relevant to source code may vary from country to country, but can be generally understood as the exclusive right to: copy, modify or create derivative works, and distribute. Other rights include activities such as performing a play or public display of a painting. We will talk more about this shortly.
+Prawa stosujące się do kodu źródłowego mogą różnić się w zależności od kraju, ale ogólnie uznaje się, że dotyczą kopiowania, modyfikowania lub tworzenia prac pochodnych. Inne prawa regulują działania takie jak wystawienie sztuki teatralnej lub publiczna prezentacja obrazu. Powiemy o tym więcej już niedługo.
 
-## Before You Begin
+## Zanim zaczniesz
 
-### Course Timing
+### Terminarz kursu
 
-This course is entirely self-paced; there is no fixed schedule for going through the material. You can go through the course at your own pace, and you will always be returned to exactly where you left off when you come back to start a new session. However, we still suggest you avoid long breaks in between periods of work, as learning will be faster and content retention improved.
+Tempo tego kursy zależy wyłącznie od ciebie, nie ma z góry określonych terminów na przerobienie materiału. Możesz brać udział w kursie w swoim własnym tempie. Na początku każdej nowej sesji przekierujemy cię dokładnie tam, gdzie skończyła się poprzednia sesja. Mimo to sugerujemy, aby nie robić sobie dłuższych przerw w nauce. Ukończysz kurs szybciej, a ilość zapamiętanego materiału będzie większa.
 
-The chapters in the course have been designed to build on one another. It is probably best to work through them in sequence; if you skip or only skim some chapters quickly, you may find there are topics being discussed you have not been exposed to yet. But this is all self-paced, and you can always go back, so you can thread your own path through the material.
+Kolejne rozdziały kursu bazują na poprzednich. Dlatego wydaje się, że najlepiej będzie przerabiać je po kolei. Jeśli jakiś przeskoczysz lub tylko przejrzysz pobieżnie, może się okazać, że nie znasz jeszcze tematów omawianych w kolejnym rozdziale. Ale tempo jest dostosowane do ciebie. Zawsze możesz wrócić i przejść przez materiał własną ścieżką.
 
-### Assessments
+### Oceny
 
-At the end of each chapter, you will find a series of **ungraded knowledge check questions**. These questions were designed with one goal in mind: to help you better comprehend the course content and reinforce what you have learned. 
+Na końcu każdego rozdziału znajduje się seria **nieocenianych pytań sprawdzających**. Pytania te stworzyliśmy w jednym celu - aby pomóc ci lepiej zrozumieć materiał kursu i zapamiętać to, czego się uczysz. 
 
-To complete this course, **you will be required to take a final exam**. You must score **90% or better** to pass the exam and complete the course. If you fail the exam, you will have the opportunity to retake it as many times as needed, until you obtain a passing grade.
+Aby ukończyć ten kurs, **musisz przystąpić do egzaminu końcowego**. Musisz zdobyć wynik **90% lub więcej**, aby zdać egzamin i ukończyć kurs. Jeśli nie zdasz egzaminu, będziesz mieć szansę podejść do niego ponownie tyle razy, ile będzie trzeba, aby otrzymać pozytywny wynik.
 
-### Legal Disclaimer, Course Copyright and License
+### Noty prawne, o prawach autorskich i licencjach
 
 Copyright 2016-2021, The Linux Foundation.
 
-This course is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/), except for content from other sources where a different license is otherwise noted.
+Ten kurs jest objęty licencją [Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/), za wyjątkiem treści z innych źródeł oznaczonych osobnymi licencjami.
 
 ---
 
-**The following are some recommended best practices, but you should always consult with your own legal counsel.**
+**Poniżej określiliśmy pewne zalecane najlepsze praktyki, ale zawsze konsultuj się z własnym radcą prawnym.**
 
-This course does NOT constitute legal advice. Legal advice is always very fact specific and specific to the laws of the applicable jurisdiction.
+Ten kurs NIE stanowi porady prawnej. Porady prawne zawsze odnoszą się do konkretnych sytuacji i zależą od prawa obowiązującego na danym terytorium.
 
-Always consult with your own legal counsel and follow the counsel’s advice if it differs from the recommendations provided in this course.
+Zawsze konsultuj się ze swoim radcą prawnym i postępuj zgodnie z zaleceniami, jeśli różnią się od rekomendacji zawartych w tym kursie.
 
-This course has been created by Linux Foundation employees, so the Linux Foundation is considered the copyright holder and able to determine the license.
+Ten kurs został stworzony przez pracowników Linux Foundation, więc to Linux Foundation jest właścicielem praw autorskich i określa jego licencję.
 
-This course is licensed under the CC-BY-SA-4.0 license. This is one of several licenses developed by the Creative Commons organization. This specific license lets others remix, tweak, and build upon this work, even for commercial purposes, as long as they credit this work and license their new creations under identical terms.
+Ten kurs jest objęty licencją CC-BY-SA-4.0. Jest to jedna z kilku licencji opracowanych przez organizację Creative Commons. Ta konkretna licencja pozawala wszystkim na remiksowanie, przetwarzanie lub tworzenie na podstawie tego utworu, nawet w celach komercyjnych, o ile prawidłowo oznaczą ten utwór, a swoje nowe utwory obejmą identycznymi warunkami licencji.
 
-CC-BY-SA-4.0 is similar to the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects. We will talk more about this later in the course.
+CC-BY-SA-4.0 jest podobna do licencji używanej przez Wikipedię i zaleca się ją w przypadku materiałów, które mogą skorzystać na dołączeniu treści z Wikipedii i projektów objętych podobnymi licencjami. Opowiemy o tym więcej w dalszej części kursu.
 
-## The Linux Foundation
+## Linux Foundation
 
-### The Linux Foundation
+### Linux Foundation
 
-![The Linux Foundation logo](img/linux-foundation-logo.png)
+![Logo Linux Foundation](img/linux-foundation-logo.png)
 
-[The Linux Foundation](https://www.linuxfoundation.org/) provides a neutral, trusted hub for developers to code, manage, and scale open technology projects. Founded in 2000, The Linux Foundation is supported by more than 1,000 members and is the world’s leading home for collaboration on open source software, open standards, open data and open hardware. The Linux Foundation’s methodology focuses on leveraging best practices and addressing the needs of contributors, users and solution providers to create sustainable models for open collaboration.
+[Linux Foundation](https://www.linuxfoundation.org/) zapewnia neutralny i zaufany ośrodek programowania, zarządzania i skalowania projektów opartych na otwartych technologiach. Od czasu założenia w 2000 r. Linux Foundation wspiera ponad 1000 członków. Jest ona wiodącym w skali świata ośrodkiem współpracy w zakresie projektów otwartego oprogramowania, otwartych standardów, otwartych danych i otwartego sprzętu. Metodologia Linux Foundation skupia się na wykorzystaniu najlepszych praktyk i wychodzi naprzeciw potrzebom współtwórców, użytkowników i dostawców usług, aby tworzyć trwałe modele otwartej współpracy.
 
-The Linux Foundation hosts Linux, the world's largest and most pervasive open source software project in history. It is also home to Linux creator Linus Torvalds and lead maintainer Greg Kroah-Hartman. The success of Linux has catalyzed growth in the open source community, demonstrating the commercial efficacy of open source and inspiring countless new projects across all industries and levels of the technology stack.
+W Linux Foundation tworzony jest Linux - największy na świecie i najbardziej rozpowszechniony projekt otwartego oprogramowania w historii. Tu również zadomowili się Linus Torvalds i główny opiekun Greg Kroah-Hartman. Sukces Linuxa był katalizatorem wzrostu społeczności otwartego oprogramowania. Wykazał komercyjną opłacalność otwartego oprogramowania i zainspirował niezliczone nowe projekty z każdej możliwej branży i poziomu technologicznego.
 
-As a result, the Linux Foundation today hosts far more than Linux; it is the umbrella for many critical open source projects that power corporations today, spanning virtually all industry sectors. Some of the technologies we focus on include big data and analytics, networking, embedded systems and IoT, web tools, cloud computing, edge computing, automotive, security, blockchain, and many more.
+Dzięki temu pod dachem Linux Foundation rozwija się o wiele więcej niż sam Linux - wiele kluczowych projektów otwartego oprogramowania, które dziś napędzają działania korporacji z każdego w zasadzie sektora przemysłu. Do technologii, na których się skupiamy, należą między innymi big data i big analytics, technologie sieciowe, systemy wbudowane, rozwiązania chmurowe, przetwarzanie brzegowe, motoryzacja, bezpieczeństwo, blockchain i wiele, wiele innych.
 
-### The Linux Foundation Events
+### Wydarzenia Linux Foundation
 
-Over 85,000 open source technologists and leaders worldwide gather at Linux Foundation events annually to share ideas, learn and collaborate. Linux Foundation events are the meeting place of choice for open source maintainers, developers, architects, infrastructure managers, and sysadmins and technologists leading open source program offices, and other critical leadership functions.
+Ponad 85 000 inżynierów i liderów z całego świata zbiera się co roku na wydarzeniach organizowanych przez Linux Foundation, aby dzielić się pomysłami, uczyć i współpracować. Wydarzenia Linux Foundation są ulubionym miejscem spotkań opiekunów, programistów i architektów otwartego oprogramowania, menadżerów infrastruktury, sysadminów i inżynierów prowadzących biura programów otwartego oprogramowania oraz innych osób pełniących kluczowe funkcje kierownicze.
 
-These events are the best place to gain visibility within the open source community quickly and advance open source development work by forming connections with the people evaluating and creating the next generation of technology. They provide a forum to share and gain knowledge, help organizations identify software trends early to inform future technology investments, connect employers with talent, and showcase technologies and services to influential open source professionals, media, and analysts around the globe.
+Nasze wydarzenia to najlepsza okazja, aby szybko zaprezentować się społeczności otwartego oprogramowania i rozwijać prace w projektach open source, łącząc się z ludźmi oceniającymi i tworzącymi nowe generacje technologii. Są one forum wymiany i zdobywania wiedzy. Pomagają organizacjom na wczesnym etapie identyfikować nowe trendy i decydować o kierunkach przyszłych inwestycji. Łączą pracodawców z utalentowanymi pracownikami i prezentują technologie i usługi wpływowym specjalistom od otwartego oprogramowania, mediom i analitykom z całego świata.
 
-The Linux Foundation hosts an increasing number of events each year, including:
+Co roku Linux Foundation organizuje coraz więcej wydarzeń, takich jak:
 
 * Open Source Summit North America, Europe, and Japan
 * Embedded Linux Conference North America and Europe
@@ -141,53 +141,53 @@ The Linux Foundation hosts an increasing number of events each year, including:
 * Linux Kernel Maintainer Summit
 * The Linux Foundation Member Summit
 * Open Compliance Summit
-* And many more.
+* i wiele innych.
 
-You can learn more about the [Linux Foundation events](https://events.linuxfoundation.org/) online.
+Możesz dowiedzieć się więcej o [wydarzeniach Linux Foundation](https://events.linuxfoundation.org/) online.
 
-### Training Venues
+### Miejsca szkoleń
 
-The Linux Foundation's training is for the community, by the community, and features instructors and content straight from the leaders of the Linux developer community.
+Szkolenia Linux Foundation są tworzone dla społeczności i przez społeczność, a ich treści i instruktorzy pochodzą z najwyższej półki społeczności twórców Linuxa.
 
-The Linux Foundation offers several types of training:
+Linux Foundation oferuje kilka typów szkoleń:
 
-* Classroom
-* Online
-* On-site
-* Events-based.
+* stacjonarne,
+* online,
+* u klienta,
+* w połączeniu z wydarzeniami.
 
-Attendees receive Linux and open source software training that is distribution-flexible, technically advanced and created with the actual leaders of the Linux and open source software development community themselves. The Linux Foundation courses give attendees the broad, foundational knowledge and networking needed to thrive in their careers today. With either online or in-person training, The Linux Foundation classes can keep you or your developers ahead of the curve on open source essentials.
+Uczestnicy otrzymują szkolenia związane z Linuxem i otwartym oprogramowaniem niezależne od dystrybucji, zaawansowane technicznie i tworzone bezpośrednio przez faktycznych liderów społeczności twórców Linuxa i otwartego oprogramowania. Linux Foundation oferuje uczestnikom szkoleń szeroki zakres fundamentalnej wiedzy i kontaktów sprzyjających w rozwoju kariery w dzisiejszych czasach. Zarówno szkolenia Linux Foundation online, jak i prowadzone bezpośrednio pomogą tobie i twojemu zespołowi programistów wyprzedzać trendy w rozwoju otwartego oprogramowania.
 
-### The Linux Foundation Training Offerings
+### Oferta szkoleń Linux Foundation
 
-![The Linux Foundation Training and Certification logo](img/linux-foundation-training.png)
+![Logo szkoleń i certyfikacji Linux Foundation](img/linux-foundation-training.png)
 
-Our current course offerings include:
+Nasza aktualna oferta kursów obejmuje:
 
-* Linux Programming & Development Training
-* Enterprise IT & Linux System Administration Courses
-* Open Source Compliance Courses.
+* szkolenia programowania i rozwoju Linuxa,
+* kursy administracji systemami Linuxa i zasobami IT przedsiębiorstw,
+* kursy związane ze zgodnością w otwartym oprogramowaniu.
 
-To get more information about specific courses offered by the Linux Foundation, including technical requirements and other logistics, visit the [Linux Foundation training](https://training.linuxfoundation.org/) website.
+Aby otrzymać więcej informacji na temat konkretnych kursów oferowanych przez Linux Foundation, w tym wymagania techniczne i szczegóły organizacyjne, odwiedź stronę [Linux Foundation training](https://training.linuxfoundation.org/) website.
 
-### The Linux Foundation Certifications
+### Certyfikaty Linux Foundation
 
-The [Linux Foundation certifications](https://training.linuxfoundation.org/certification/) give you a way to differentiate yourself in a job market that's hungry for your skills. We've taken a new, innovative approach to open source certification that allows you to showcase your skills in a way that other peers will respect and employers will trust:
+[Certyfikaty Linux Foundation](https://training.linuxfoundation.org/certification/) to sposób na wyróżnienie się na rynku pracy łaknącym umiejętności takich jak twoje. Wybraliśmy nowe i innowacyjne podejście do certyfikacji w zakresie otwartego oprogramowania, dzięki któremu zaprezentujesz swoje umiejętności w sposób budzący szacunek współpracowników i zaufanie pracodawców:
 
-You can take your certification exam from any computer, anywhere, at any time:
+Egzaminy certyfikujące możesz zdawać z każdego komputera, w dowolnym czasie i miejscu:
 
-* The certification exams are performance-based​
-* The exams are distribution-flexible
-* The exams are up-to-date, testing knowledge and skills that actually matter in today's IT environment.
+* egzaminy certyfikujące sprawdzają skuteczność działania​,
+* egzaminy są niezależne od dystrybucji,
+* egzaminy są aktualne - sprawdzają wiedzę i umiejętności, które rzeczywiście liczą się w dzisiejszym świecie IT.
 
-### Training/Certification Firewall
+### Firewall szkoleń/ certyfikacji
 
-The Linux Foundation has two separate training divisions: Course Delivery and Certification. These two divisions are separated by a **firewall**. 
+Linux Foundation ma dwa niezależne działy szkoleniowe: Organizacji kursów i Certyfikacji. Oba działy rozdziela **firewall**. 
 
-The curriculum development and maintenance division of the Linux Foundation Training department has no direct role in developing, administering, or grading certification exams. 
+Dział Linux Foundation odpowiedzialny za tworzenie programów kursów nie ma bezpośredniego wpływu na opracowanie, zarządzanie ani ocenianie egzaminów certyfikacyjnych. 
 
-Enforcing this self-imposed firewall ensures that independent organizations and companies can develop third party training material, geared towards helping test takers pass their certification exams. 
+Wprowadzenie własnego firewalla tego rodzaju zapewnia niezależnym organizacjom i firmom możliwość tworzenia własnych materiałów szkoleniowych, aby pomóc uczestnikom testów zdać egzaminy certyfikacyjne. 
 
-Furthermore, it ensures that there are no secret "tips" (or secrets in general) that one needs to be familiar with in order to succeed. 
+Co więcej, to rozwiązanie zapewnia, że nie ma żadnych „tajnych trików” (ani innych sekretów), które trzeba znać, aby z powodzeniem zdać egzamin. 
 
-It also permits the Linux Foundation to develop a very robust set of courses that do far more than teach the test, but rather equip attendees with a broad knowledge of the many areas they may be required to master to have a successful career in open source system administration.
+Pozwala ono również Linux Foundation tworzyć bardzo rozbudowane zestawy kursów, które oferują o wiele więcej niż przygotowanie do testu. Dają uczestnikom szeroką wiedzę z wielu dziedzin, w których muszą stać się ekspertami, aby odnieść sukces zawodowy w administrowaniu systemami opartymi na otwartym oprogramowaniu.

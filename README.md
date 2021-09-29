@@ -1,39 +1,39 @@
-# Open Source Licensing Basics for Software Developers (LFC191)
+﻿# Podstawy licencjonowania otwartego oprogramowania dla programistów (LFC191-pl)
 
-Because open source is now found everywhere software exists, a good working knowledge of open source licensing and compliance is critical. This course is designed to teach software developers and producers why it is important to add copyrights and licenses to their code, as well as how to do so.
+Ponieważ otwarte oprogramowanie jest teraz wszędzie tam, gdzie komputery to dobra znajomość praktyk licencjonowania open source i zagadnień zgodności jest kluczowa. Ten kurs stworzyliśmy po to, aby nauczyć programistów i twórców oprogramowania, jak ważne jest dodawanie informacji o licencjach i prawach do kodu oraz jak to robić.
 
-## Course summary
+## Podsumowanie informacji o kursie
 
-* Experience level: Beginner
-* 2 hours of course material
+* Poziom zaawansowania: Początkujący
+* 2 godziny materiałów kursu
 
-### Who is it for
+### Dla kogo jest ten kurs
 
-This course is designed for developers who utilize open source code.
+Ten kurs powstał dla programistów wykorzystujących otwarty kod.
 
-### What you'll learn
+### Czego się nauczysz
 
-In this course, you'll learn how to create file notices with copyrights and licenses. This will enable students to minimize problems and ambiguity, which is useful for internal corporate projects, as well as contributing to open source projects. This course also provides an overview of the types of licenses to consider, as well as the other permissions that you may need to secure prior to external contribution.
+Z tego kursu nauczysz się tworzyć oznaczenia zawierające informacje o uznaniu autorstwa i zapisach licencji. Pozwoli to unikać problemów i niejednoznaczności, co przydaje się zarówno w wewnętrznych projektach firmowych, jak i w projektach otwartego oprogramowania. Przedstawia również przegląd wartych rozważenia typów licencji oraz zezwoleń, jakie należy uzyskać przed udostępnieniem kodu na zewnątrz.
 
-### What it prepares you for
+### Do czego przygotowuje kurs
 
-The course will prepare you to properly add copyrights and licenses to your code.
+Kurs przygotuje cię do prawidłowego dodawania do własnego kodu informacji o prawach autorskich i licencji.
 
-## Course outline
+## Zarys kursu
 
-1. Course introduction
-2. Licenses
-3. Copyrights
-4. File notices
-5. Contributing to projects
-6. Final exam
+1. Wstęp do kursu
+2. Licencje
+3. Prawa autorskie
+4. Oznakowanie w plikach
+5. Udział w projektach
+6. Egzamin końcowy
 
-## Prerequisites
+## Wymagania wstępne
 
-No prior training or knowledge is required to take this course.
+Do wzięcia udziału w tym kursie nie jest wymagane wcześniejsze szkolenie ani doświadczenie
 
-## Course copyright and license
+### Prawach autorskie i licencja kursu
 
 Copyright 2016-2021, The Linux Foundation.
 
-This course is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/), except for content from other sources where a different license is otherwise noted.
+Ten kurs jest objęty licencją [Creative Commons Uznanie autorstwa-Na tych samych warunkach 4.0 Międzynarodowe (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/), za wyjątkiem treści z innych źródeł oznaczonych osobnymi licencjami.

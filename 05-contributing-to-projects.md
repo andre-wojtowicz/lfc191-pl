@@ -1,80 +1,80 @@
-# Contributing to projects
+﻿# Udział w projektach
 
 ## Introduction
 
-### Section Overview
+### Przegląd rozdziału
 
-Before contributing code upstream to an open source project, you need to make sure it is ok for you to do so.
+Zanim przekażesz swój kod do projektu otwartego oprogramowania, upewnij się, że wolno ci to zrobić.
 
-If you do not work for a company or organization, and are making the contributions of code or content as an individual where you own the copyright, it tends to be fairly straightforward. Projects have individual contributor guidelines to follow and these should be read carefully, any necessary paperwork filed or sign-offs prepared, and then patches sent to the project.
+Jeśli nie pracujesz dla firmy ani organizacji, a swój kod lub inne treści przekazujesz jako osoba indywidualna posiadająca pełnię praw autorskich, to sprawa wydaje się oczywista. Projekty mają zasady dla indywidualnych współpracowników i należy się z nimi dokładnie zapoznać, wypełnić potrzebne dokumenty, wyrazić wymagane zgody, a następnie przekazać swoje poprawki do projektu.
 
-If you do work for an organization, you will need to check with your management that it is ok to send work you have been doing to the upstream project. The company may need to sign some form of contributor agreement or assign copyrights, or you may need to provide DCO (Developer Certificate of Origin) sign-offs, in order for the contribution to be accepted.
+Jeśli jednak pracujesz dla jakiejś firmy lub organizacji, to musisz sprawdzić, czy twoi przełożeni zgadzają się na przesłanie twojej pracy do projektu. Od firmy może być wymagane podpisanie jakiejś umowy o współpracy lub wskazanie praw autorskich albo przedstawienie DCO (Developer Certificate of Origin), aby można było przyjąć jej wkład.
 
-### Learning Objectives
+### Założenia rozdziału
 
-By the end of this section, you should be able to:
+W tym rozdziale nauczysz się, jak:
 
-* Understand the common terms under which projects accept contributions, and what to check for.
+* rozumieć typowe warunki, na podstawie których projekty akceptują pracę współpracowników, i na co zwracać szczególną uwagę.
 
-## Contributing to Projects
+## Udział w projektach
 
-### Get Approval for Contributing Employer-Owned Code
+### Uzyskanie zgody na przesłanie kodu należącego do pracodawcy
 
-If you are contributing code on behalf of your employer — in other words, code that is owned by your employer and not by you — then you should make sure your employer will permit you to contribute it to the project.
+Jeśli chcesz przesłać kod w imieniu swojego pracodawcy - czyli taki, do którego to pracodawca, a nie ty, ma prawa - to musisz upewnić się, czy pracodawca zgadza się na twój udział w danym projekcie.
 
-Part of this may include your employer’s acceptance of the applicable contribution mechanism, such as signing a Contributor License Agreement (CLA) or permitting a Developer Certificate of Origin (DCO) sign-off. These contribution mechanisms are described in more detail on the following pages.
+Może to wymagać od twojego pracodawcy między innymi wyrażenia zgody na stosowane w projekcie mechanizmy współpracy: podpisania CLA (Contributor License Agreement) lub przedstawienia DCO (Developer Certificate of Origin). Oba te mechanizmy opisujemy bardziej szczegółowo na kolejnych stronach.
 
-Additionally, another part may involve your employer determining whether the subject matter of your proposed contribution is appropriate to submit to the project. Your employer might be comfortable with contributing code or content for certain functionality, but might object to other types of code being contributed. Every organization may have a different set of policies and procedures for these determinations. You should check with your company’s open source program office, legal team, or other appropriate group before you contribute code that is owned by the company.
+Dodatkowym wymogiem może być określenie przez twojego pracodawcę, czy treści, jakie zamierzasz przekazać, są odpowiednie dla projektu. Twój pracodawca może chcieć przekazać twój kod lub inne treści do wykorzystania w jakimś zakresie, ale nie zgodzić się na przekazanie kodu innego rodzaju. Każda organizacja ma w takich sprawach własne zasady i procedury. Przed przekazaniem kodu należącego do twojej firmy należy zasięgnąć opinii komórki zajmującej się otwartym oprogramowaniem, działu prawnego lub innych odpowiednich osób.
 
-### Contribution Mechanisms
+### Mechanizmy współpracy
 
-To preserve a project’s goals, and to ensure that downstream users can enjoy the rights granted by the project’s license, the project may require some formalities before it can accept changes from you.
+Aby zachować założone cele i zapewnić użytkownikom możliwość korzystania z pełni praw przyznanych licencją projektu, może on wymagać spełnienia pewnych formalności, zanim będzie mógł przyjąć wprowadzone przez ciebie zmiany.
 
-Typically there will be some documentation in a `CONTRIBUTING` file in the project repository, or on the project website and pages, describing what formalities are needed.
+Zazwyczaj w pliku `CONTRIBUTING` w repozytorium lub na stronie www projektu umieszcza się dokumentację na temat wymaganych formalności.
 
-Not all projects require these formalities. Many projects on GitHub will accept pull requests without anything required other than a code patch. However, many larger and significant open source projects use formal contribution mechanisms to help protect the project community, users and contributors, and their expectations.
+Nie wszystkie projekty mają takie wymagania. Sporo projektów na GitHub przyjmuje prośby o połączenie (pull requests) bez dodatkowych wymagań. Jednak wiele dużych i ważnych projektów otwartego oprogramowania wykorzystuje sformalizowane mechanizmy współpracy, aby lepiej chronić społeczność, użytkowników i współpracowników oraz ich oczekiwania.
 
-Examples of formal contribution mechanisms include:
+Do przykładów formalnych mechanizmów współpracy można zaliczyć:
 
-* Contributor License Agreements (CLAs)
-  * e.g. Apache Software Foundation, Google, Kubernetes
+* Contributor License Agreements (CLA)
+  * np. Apache Software Foundation, Google, Kubernetes
 * Copyright Assignment
-  * e.g. GNU toolchain
+  * np. GNU toolchain
 * Developer’s Certificate of Origin (DCO)
-  * e.g. Linux kernel, Zephyr
+  * np. jądro Linuxa, Zephyr
 
-### Contributor License Agreements (CLAs)
+### Contributor License Agreements (CLA)
 
-A Contributor License Agreement (CLA) is an agreement between the project and the owner of the contribution. As its name suggests, the contributor grants a **license** to the project. The CLA’s text describes the scope of the license that is granted.
+Contributor License Agreement (CLA) to umowa pomiędzy projektem a właścicielem współtworzonych treści. Jak wynika z nazwy, współpracownik przyznaje projektowi **licencję**. Tekst CLA określa zakres przyznanej licencji.
 
-This means that the owner of the contribution continues to own it. Signing a CLA doesn’t mean that they transfer their ownership to the project. Rather, the CLA grants a license, but the owner of the contribution still owns its copyright, and can use and license it to others in other ways.
+Oznacza to, że dodane treści pozostają własnością ich twórcy. Podpisanie CLA nie oznacza zrzeczenia się własności na rzecz projektu. Zamiast tego CLA przyznaję licencję, ale właściciel dodanych treści nadal zachowuje swoje prawa autorskie do nich i może licencjonować je w inny sposób w innych przypadkach.
 
-Every project’s CLA might be different, and might grant a different scope of license, have different requirements, etc. The scope of licenses being granted to the project are often not the same as the "outbound" license granted by the project to the rest of the world. Because of this, you and/or your legal team will likely want to review closely any CLA before you sign it.
+CLA mogą się różnić w zależności od projektu i mogą przyznawać inne zakresy uprawnień, nakładać inne wymagania itp. Zakres licencji przyznanych projektowi często nie jest taki sam jak licencja „zewnętrzna” przyznawana przez projekt reszcie świata. Z tego powodu ty i/lub twój dział prawny powinniście dokładnie przeanalizować przed podpisaniem każdą CLA.
 
-Many projects that use CLAs will have two different forms:
+Wiele projektów używa CLA w dwóch różnych formach:
 
-* **Individual** - An Individual CLA (ICLA) is intended for individuals who are contributing code that they own.
-* **Corporate** - A Corporate CLA (CCLA) is intended for companies and organizations, where an employee is contributing code on behalf of their employer.
+* **indywidualna** - Indywidualna CLA (ICLA) jest przeznaczona dla osób fizycznych, które dodają kod niebędący ich własnością.
+* **korporacyjna** - Koroporacyjna CLA (CCLA) jest przeznaczona dla firm i organizacji, których pracownicy dodają kod w imieniu pracodawcy.
 
-If you are contributing code owned by your employer, you should have your legal team review the Corporate CLA and, if they approve it, have it signed by someone who is authorized by your company to sign contracts like CLAs. You should not bypass your company’s review, approval and signing of a CCLA by instead signing an Individual CLA yourself, if the code is owned by, and being contributed on behalf of, your employer.
+Jeśli dodajesz kod, którego właścicielem jest twój pracodawca, to jego dział prawny powinien przeanalizować korporacyjną CLA i, jeśli zostanie zatwierdzona, powinien podpisać ją ktoś uprawniony do zawierania umów w imieniu firmy. Nie próbuj obchodzić etapów analizy, zatwierdzenia i podpisania CCLA, podpisując samodzielnie indywidualną CLA, jeśli kod jest własnością twojego pracodawcy i dodajesz go w jego imieniu.
 
 ### Copyright Assignment
 
-A Copyright Assignment agreement, like a CLA, is also an agreement between the project and the owner of the contribution. However, unlike CLAs, a Copyright Assignment actually transfers (or "assigns") ownership of the copyright from the contributor to the project. The contributor will no longer own the copyright in the contributed code.
+Stronami umowy Copyright Assignment (o przeniesieniu praw autorskich), podobnie jak CLA, są projekt i właściciel dodanych treści. W odróżnieniu od CLA umowa Copyright Assignment rzeczywiście „przenosi” własność praw autorskich ze współtwórcy na sam projekt. Współtwórca traci prawa autorskie do dodanych przez siebie treści.
 
-Copyright assignment is typically used by projects that want to own the copyrights for enforcement purposes, and to retain the right to relicense a project at some future date. (CLAs may also enable relicensing of a project, depending on the text of the particular CLA.)
+Przeniesienie praw autorskich zazwyczaj występuje w projektach, które chcą egzekwować ich ochronę i zachować na przyszłość prawno do zmian licencji. (Umowy CLA, w zależności od ich konkretnej treści, mogą również umożliwiać zmiany typu licencji.)
 
-A common example where this is used is by the Free Software Foundation, or FSF, for contributions to the GNU compiler. Here they ask for the copyright to be assigned as one contribution mechanism before they accept changes in, so that the project will own all copyrights in the contributions.
+Typowym przykładem takiej sytuacji jest współpraca z Free Software Foundation (FSF) przy kompilatorze GNU. W tym przypadku mechanizm współpracy wymaga przeniesienia praw autorskich przed akceptacją zmian, dzięki czemu projekt otrzymuje wszystkie prawa autorskie do zmienionych treści.
 
-In addition to being used as supporting their approach to enforcing the terms of the GPL, the assignment of copyright in this project allowed the FSF as the copyright owner to work with other organizations and individuals to enforce the principles of the license, or to issue materials such as the GCC Runtime Library Exceptions that clarify the license or offer additional permissions that could be considered a change in the license terms.
+Przeniesienie praw autorskich w tym projekcie nie tylko jest pomocne w egzekwowaniu warunków GPL, ale również pozwoliło FSF jako właścicielowi praw współpracować z innymi organizacjami i osobami przy egzekwowaniu postanowień licencji oraz wydawaniu materiałów, takich jak GCC Runtime Library Exceptions, które wyjaśniają zapisy licencji lub dają dodatkowe pozwolenia, które można uznać za zmieniające zapisy licencji.
 
-### The Developer's Certificate of Origin 1.1
+### Developer Certificate of Origin 1.1
 
-Another method that is used by some projects is the Developer’s Certificate of Origin. Instead of using a Contributor License Agreement, in May 2004, the kernel development community decided to standardize on a requirement to adhere to a Developer’s Certificate of Origin (also known as the DCO) for contributions to the Linux kernel.
+Inna metoda, z której korzysta część projektów, to Developer Certificate of Origin. Zamiast skorzystać z Contributor License Agreement, społeczność tworząca jądro Linuxa w maju 2004 roku zdecydowała o ujednoliceniu wymagań stosowanych przy współtworzeniu jądra do Developer Certificate of Origin (znanego również jako DCO). 
 
-In the DCO, the contributor indicates at the time they submit a contribution — via a sign-off statement in the metadata provided together with the contribution — that they have the right to submit the change under the indicated license, have it be public, and if it is based on a previous work, that too is ok to submit, to the best of the contributor’s knowledge.
+Dodając własne treści, współpracownik załącza w metadanych DCO, w którym stwierdza, że na podstawie określonej licencji ma prawo do przesłania zmian i do upublicznienia ich, a jeżeli jego praca jest oparta na wcześniejszej pracy innych osób, to zgodnie z jego najlepszą wiedzą wszystkie te treści również mogą być przesłane.
 
-Below you can find the text of the ["Developer's Certificate of Origin Version 1.1"](https://www.developercertificate.org/):
+Poniżej znajduje się oryginalny tekst ["Developer's Certificate of Origin Version 1.1"](https://www.developercertificate.org/):
 
 ```plaintext
 By making a contribution to this project, I certify that:
@@ -102,28 +102,28 @@ By making a contribution to this project, I certify that:
     this project or the open source license(s) involved.
 ```
 
-In addition, you can also find it in the Linux Kernel Source Tree, [Documentation/process/submitting-patches.rst](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst) file.
+Można również znaleźć go w drzewie źródeł jądra Linuxa, w pliku [Documentation/process/submitting-patches.rst](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst).
 
-Other open source projects have adopted the use of this method instead of CLAs or assignment agreements. For this mechanism to work, there should be a license in each source file and there is an understanding that what you are submitting is compatible with the open source license indicated in the file you are submitting a change to, and a signed-off notation is used as shown on the next screen.
+Inne projekty otwartego oprogramowania także przyjęły tę metodę zamiast CLA lub umów przeniesienia praw autorskich. Aby mechanizm ten mógł działać, w każdym pliku kodu źródłowego należy umieścić licencję. Trzeba też rozumieć, czy dodawane treści są kompatybilne z licencją otwartego oprogramowania obejmującą modyfikowany plik i użyć formatu podpisu pokazanego na kolejnym ekranie.
 
-### How to Sign-Off for the DCO
+### Jak podpisać DCO
 
-The DCO does not involve getting a signed agreement (whether from you or your employer). Instead, if you are submitting to a project that uses a DCO, you will be adding a "signed-off" statement in your patch.
+DCO nie wymaga uzyskania podpisanej umowy (ani od ciebie, ani od twojego pracodawcy). Zamiast tego, jeśli dodajesz treści do projektu korzystającego z DCO, w swojej poprawce musisz umieścić odpowiednie oświadczenie sformatowane według następującego wzoru:
 
-A signed-off statement follows the following syntax.
 
-A "Signed-off-by:" tag followed by the person’s name and email address. This statement can easily be added to your commit with a single '-s' command-line flag when using the Git tools.
+
+Znacznik „Signed-off-by”, po którym następują nazwisko osoby i adres email. Możesz je w prosty sposób dołączyć przy zatwierdzaniu własnych zmian narzędziami git, dodając w wierszu poleceń do polecenia commit '-s'.
 
 ```plaintext
 Signed-off-by: Linus Torvalds <torvalds@linuxfoundation.org>
 ```
 
-In the example we provide, this is what Linus Torvalds’ signed-off-by statement would look like for a change he wanted to apply to the kernel.
+W powyższym przykładzie pokazujemy, jak wyglądałoby oświadczenie Linusa Torvaldsa dla zmiany, którą chciałby zatwierdzić w jądrze.
 
-Some tools make it easier to enforce DCO checks, meaning that they help ensure that patches submitted for inclusion are only incorporated into the project code if they were accompanied by a "Signed-off-by:" statement. For example, on GitHub the [DCO app](https://github.com/apps/dco) enables these checks when a pull request is submitted.
+Niektóre narzędzia ułatwiają egzekwowanie DCO, pomagając sprawdzać, czy poprawki zawierają oświadczenie „Signed-off-by”, i dodawać je do kodu projektu tylko w przypadku, jeśli tak jest. Na przykład na GitHubie [DCO app](https://github.com/apps/dco) umożliwia taką weryfikację przy zgłoszeniu poprawek do połączenia.
 
-## Summary
+## Podsumowanie
 
-### Conclusion
+### Konkluzje
 
-You should now have a basic knowledge of the common mechanisms projects use to accept contributions, and what to check for.
+Mamy nadzieję, że rozumiesz już podstawy typowych mechanizmów współpracy w projektach i wiesz, na co zwracać szczególną uwagę.

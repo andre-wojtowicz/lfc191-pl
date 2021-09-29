@@ -1,29 +1,29 @@
-// question: 51  name: q5.1
-::q5.1::[markdown]If you are employed by a company, but contributing to an upstream project on your own time, and the project requires a contributor agreement, what should you do before submitting?{
-	~Do nothing; it's ok to submit without bothering with paperwork
-	~Fill in an individual contributor agreement
-	~Fill in a corporate contributor agreement
-	=Consult with your manager or legal counsel
-	~None of the answers is correct
+﻿// pytanie: 51  nazwa: q5.1
+::q5.1::[markdown]Jeśli jesteś pracownikiem firmy, a w czasie wolnym bierzesz udział w projekcie zewnętrznym, który wymaga umowy od współpracowników, co należy zrobić przed przesłaniem kodu?{
+	~nic, możesz przesyłać kod, nie przejmując się formalnościami
+	~wypełnić umowę dla współpracowników indywidualnych
+	~wypełnić umowę dla współpracowników korporacyjnych
+	=skonsultować się ze swoim przełożonym lub radcą prawnym
+	~żadna z odpowiedzi powyżej nie jest poprawna
 }
 
 
-// question: 52  name: q5.3
-::q5.3::[markdown]Which of the following contribution mechanisms transfers ownership of the code from you (or your employer) to the project?{
+// pytanie: 52  nazwa: q5.3
+::q5.3::[markdown]Który z poniższych mechanizmów współpracy przenosi prawa autorskie z ciebie (lub twojego pracodawcy) na projekt?{
 	~Contributor License Agreement
 	=Copyright Assignment
 	~Developer Certificate of Origin
-	~None of the answers is correct
+	~żadna z odpowiedzi powyżej nie jest poprawna
 }
 
 
-// question: 53  name: q5.4
-::q5.4::[markdown]Which of the following is **not** a common type of Contributor License Agreement?{
-	~Corporate CLA
-	~Individual CLA
-	=Employee CLA
+// pytanie: 53  nazwa: q5.4
+::q5.4::[markdown]Która z poniższych **nie** jest typowym rodzajem umowy Contributor License Agreement?{
+	~korporacyjna CLA
+	~indywidualna CLA
+	=pracownicza CLA
 }
 
 
-// question: 54  name: q5.2
-::q5.2::[markdown]The DCO requires your company to sign a contract with the project. True or False?{FALSE}
+// pytanie: 54  nazwa: q5.2
+::q5.2::[markdown]DCO nakłada na twoją firmę obowiązek podpisania umowy z projektem. Prawda czy fałsz?{FALSE}

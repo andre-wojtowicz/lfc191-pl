@@ -1,22 +1,22 @@
-// question: 41  name: q4.1
-::q4.1::[markdown]A valid file notice for copyright and licensing information should appear\:{
-	~At the beginning of the file
-	~At the end of the file
-	=Anywhere in the file
+﻿// pytanie: 41  nazwa: q4.1
+::q4.1::[markdown]poprawne oznaczenie praw autorskich i licencji powinno pojawić się\:{
+	~na początku pliku
+	~na końcu pliku
+	=w dowolnym miejscu pliku
 }
 
 
-// question: 42  name: q4.2
-::q4.2::[markdown]When adding significant intellectual work to an existing file you did not create, you should\:{
-	~Replace the file's copyright statement with your copyright statement
-	~Update the date of the existing copyright statement
-	=Add a new copyright statement
+// pytanie: 42  nazwa: q4.2
+::q4.2::[markdown]Dodając znaczący wkład intelektualny do istniejącego pliku stworzonego przez kogoś innego, należy\:{
+	~zastąpić istniejące określenie praw autorskich własnym
+	~uaktualnić datę w istniejącym określeniu praw autorskich
+	=dodać nowe określenie praw autorskich
 }
 
 
-// question: 43  name: q4.3
-::q4.3::[markdown]When adding significant intellectual work to an existing file you did not create which uses the newer format, such as *Copyright Contributors to the XYZ Project*, which of the following **may** you do?{
-	~%-100%Replace the existing notice with your own copyright notice
-	~%50%Add a second notice with the year and name of copyright holder of the new contributions
-	~%50%Make no changes or additions to the notices
+// pytanie: 43  nazwa: q4.3
+::q4.3::[markdown]Co **wolno** ci zrobić, kiedy dodajesz znaczący wkład intelektualny do istniejącego pliku stworzonego przez kogoś innego, w którym wykorzystano nowszy format, taki jak *Copyright Contributors to the XYZ Project*?{
+	~%-100%zastąpić istniejące oznaczenie własną informacją o prawach autorskich
+	~%50%dodać drugie oznaczenie z rokiem i nazwą właściciela praw autorskich nowych treści
+	~%50%nie robić zmian ani nie dodawać oznaczeń
 }

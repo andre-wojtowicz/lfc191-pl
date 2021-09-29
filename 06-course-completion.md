@@ -1,21 +1,21 @@
-# Course completion
+﻿# Ukończenie kursu
 
-## Before You Begin Your Final Exam
+## Zanim przystąpisz do końcowego egzaminu
 
-### Things to Remember
+### Do zapamiętania
 
-Using unambiguous copyright and license notices in the code helps you avoid problems with its adoption:
+Korzystanie z jednoznacznego określenia praw autorskich i licencji w kodzie pomoże ci uniknąć problemów z wykorzystaniem go:
 
-* For new files - Add a copyright statement and indicate the license the file is governed by in a file notice.
-* For significant changes in existing files - Update the copyright if appropriate and, if relevant, any other licenses.
-* Always secure all the necessary permissions before contributing changes to upstream projects, and understand the mechanisms used for contributions.
+* w nowych plikach - dodawaj oznakowanie zawierające informacje o prawach autorskich i obowiązujących licencjach,
+* w przypadku znaczących zmian w istniejących plikach - o ile zachodzi taka potrzeba, uaktualniaj informacje o prawach autorskich i licencjach.
+* Zawsze uzyskuj wszelkie wymagane zezwolenia przed przesyłaniem zmian do projektów, poznaj mechanizmy obowiązujące przy współpracy.
 
-The material to date (updated March 2020) has summarized the basics of how a file notice is formed (from a copyright statement and an unambiguous reference to the license in effect), when a copyright notice should be updated, as well as what mechanisms are used, and what permissions may need to be secured, when submitting changes to upstream projects.
+Aktualny materiał (ostatnie zmiany w marcu 2020) podsumował podstawy tworzenia oznaczeń w plikach (informacje o prawach autorskich i jednoznaczne określenie obowiązującej licencji), sytuacji wymagających aktualizacji oznaczeń, obowiązujących mechanizmów i wymaganych zezwoleń przy dodawaniu zmian do projektów.
 
-## Final Exam
+## Egzamin końcowy
 
-### Instructions
+### Zasady
 
-To complete this course, a final assessment is required. To pass, you must answer at least **90%** of the questions in the final assessment correctly. You have one attempt per question per exam.
+Do ukończenia tego kursu wymagana jest ocena końcowa. Aby zdać, musisz uzyskać przynajmniej **90%** prawidłowych odpowiedzi. Zdając egzamin, na każde z pytań możesz udzielić odpowiedzi tylko raz.
 
-In the event that you do not pass the final assessment, you will be given a new opportunity to take it. You have an unlimited number of attempts for the final assessment, until you obtain a passing grade.
+W przypadku niezaliczenia egzaminu końcowego, będzie ci wolno podejść do niego jeszcze raz. Liczba podejść do egzaminu końcowego jest nieograniczona - możesz próbować aż do zdania egzaminu.
