@@ -1,6 +1,6 @@
 ﻿# Udział w projektach
 
-## Introduction
+## Wprowadzenie
 
 ### Przegląd rozdziału
 

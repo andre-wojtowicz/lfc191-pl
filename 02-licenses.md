@@ -85,7 +85,7 @@ Aby dowiedzieć się więcej o licencjach otwartego oprogramowania, przejrzyj st
 
 Aby kod można było uznać za otwarte oprogramowanie, licencja, jaką jest objęty, powinna charakteryzować się właściwościami określonymi w [Open Source Definition](https://opensource.org/osd-annotated) dokumencie utrzymywanym przez [Open Source Initiative](https://opensource.org/) (OSI).
 
-![logo Open Source Initiative](img/osi-logo.png)
+![Logo Open Source Initiative](img/osi-logo.png)
 
 Logo OSI jest znakiem towarowym Open Source Initiative. Źródło: [Wikipedia](https://en.wikipedia.org/wiki/Open_Source_Initiative), na licencji [CC-BY-2.5](https://creativecommons.org/licenses/by/2.5/).
 
@@ -187,9 +187,28 @@ US Patent Cover wydany przez United States Patent and Trademark Office. Źródł
 
 Czy licencja jednoznacznie udziela patentu?
 
-| Jednoznaczne wyłączenie licencji patentu | Dorozumiane udzielenie patentu i/lub brak jednoznacznego udzielenia patentu | Jednoznaczne udzielenie licencji patentu |
-| :--- | :--- | :--- |
-| <ul><li><a href=”https://spdx.org/licenses/CC0-1.0.html”>CC0-1.0</a></li><li>Inne licencje Creative Commons np. <a href="https://spdx.org/licenses/CC-BY-4.0.html">CC-BY-4.0</a></li><li><a href="https://spdx.org/licenses/BSD-3-Clause-Clear.html">BSD-3-Clause-Clear</a></li></ul> | <ul><li><a href="https://spdx.org/licenses/BSD-2-Clause.html">BSD-2-Clause</a> and <a href="https://spdx.org/licenses/BSD-3-Clause.html">BSD-3-Clause</a></li><li><a href="https://spdx.org/licenses/MIT.html">MIT</a></li><li><a href="https://spdx.org/licenses/ISC.html">ISC</a></li><li><a href="https://spdx.org/licenses/Apache-1.0.html">Apache-1.0</a> oraz <a href="https://spdx.org/licenses/Apache-1.1.html">Apache-1.1</a></li><li><a href="https://spdx.org/licenses/GPL-2.0-only.html">GPL-2.0</a> oraz <a href="https://spdx.org/licenses/LGPL-2.1-only.html">LGPL-2.1</a></li></ul> | <ul><li><a href="https://spdx.org/licenses/Apache-2.0.html">Apache-2.0</a></li><li><a href="https://spdx.org/licenses/GPL-3.0-only.html">GPL-3.0</a> oraz <a href="https://spdx.org/licenses/LGPL-3.0-only.html">LGPL-3.0</a></li><li><a href="https://spdx.org/licenses/MPL-1.0.html">MPL-1.0</a>, <a href="https://spdx.org/licenses/MPL-1.1.html">MPL-1.1</a> oraz <a href="https://spdx.org/licenses/MPL-2.0.html">MPL-2.0</a></li><li><a href="https://spdx.org/licenses/EPL-1.0.html">EPL-1.0</a> oraz <a href="https://spdx.org/licenses/EPL-2.0.html">EPL-2.0</a></li><li><a href="https://spdx.org/licenses/CDDL-1.0.html">CDDL-1.0</a> oraz <a href="https://spdx.org/licenses/CDDL-1.1.html">CDDL-1.1</a></li></ul> |
+<table>
+<thead>
+<tr>
+<th>Jednoznaczne wyłączenie licencji patentu</th>
+<th>Dorozumiane udzielenie patentu i/lub brak jednoznacznego udzielenia patentu</th>
+<th>Jednoznaczne udzielenie licencji patentu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<ul><li><a href="https://spdx.org/licenses/CC0-1.0.html">CC0-1.0</a></li><li>Inne licencje Creative Commons np. <a href="https://spdx.org/licenses/CC-BY-4.0.html">CC-BY-4.0</a></li><li><a href="https://spdx.org/licenses/BSD-3-Clause-Clear.html">BSD-3-Clause-Clear</a></li></ul>
+</td>
+<td>
+<ul><li><a href="https://spdx.org/licenses/BSD-2-Clause.html">BSD-2-Clause</a> and <a href="https://spdx.org/licenses/BSD-3-Clause.html">BSD-3-Clause</a></li><li><a href="https://spdx.org/licenses/MIT.html">MIT</a></li><li><a href="https://spdx.org/licenses/ISC.html">ISC</a></li><li><a href="https://spdx.org/licenses/Apache-1.0.html">Apache-1.0</a> oraz <a href="https://spdx.org/licenses/Apache-1.1.html">Apache-1.1</a></li><li><a href="https://spdx.org/licenses/GPL-2.0-only.html">GPL-2.0</a> oraz <a href="https://spdx.org/licenses/LGPL-2.1-only.html">LGPL-2.1</a></li></ul>
+</td>
+<td>
+<ul><li><a href="https://spdx.org/licenses/Apache-2.0.html">Apache-2.0</a></li><li><a href="https://spdx.org/licenses/GPL-3.0-only.html">GPL-3.0</a> oraz <a href="https://spdx.org/licenses/LGPL-3.0-only.html">LGPL-3.0</a></li><li><a href="https://spdx.org/licenses/MPL-1.0.html">MPL-1.0</a>, <a href="https://spdx.org/licenses/MPL-1.1.html">MPL-1.1</a> oraz <a href="https://spdx.org/licenses/MPL-2.0.html">MPL-2.0</a></li><li><a href="https://spdx.org/licenses/EPL-1.0.html">EPL-1.0</a> oraz <a href="https://spdx.org/licenses/EPL-2.0.html">EPL-2.0</a></li><li><a href="https://spdx.org/licenses/CDDL-1.0.html">CDDL-1.0</a> oraz <a href="https://spdx.org/licenses/CDDL-1.1.html">CDDL-1.1</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 **Uwaga**: Niektóre projekty używają licencji, które nie odnoszą się bezpośrednio do patentów, ale udzielają ich w osobnym pliku. Widać to na przykładzie pliku `LICENSE` (BSD-3-Clause) i dodatkowego pliku `PATENTS` w [repozytorium Golang](https://github.com/golang/go/) na GitHubie.
 
@@ -414,7 +433,7 @@ Ta rodzina licencji ma standardowy nagłówek oraz grafikę. Strona Creative Com
 
 Standardowy nagłówek:
 
-![ikona Creative Commons Uznanie autorstwa - Na tych samych warunkach](img/cc-by-sa-icon.png)
+![Ikona Creative Commons Uznanie autorstwa - Na tych samych warunkach](img/cc-by-sa-icon.png)
 
 ```plaintext
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.

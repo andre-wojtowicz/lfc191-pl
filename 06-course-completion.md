@@ -10,7 +10,7 @@ Korzystanie z jednoznacznego określenia praw autorskich i licencji w kodzie pom
 * w przypadku znaczących zmian w istniejących plikach - o ile zachodzi taka potrzeba, uaktualniaj informacje o prawach autorskich i licencjach.
 * Zawsze uzyskuj wszelkie wymagane zezwolenia przed przesyłaniem zmian do projektów, poznaj mechanizmy obowiązujące przy współpracy.
 
-Aktualny materiał (ostatnie zmiany w marcu 2020) podsumował podstawy tworzenia oznaczeń w plikach (informacje o prawach autorskich i jednoznaczne określenie obowiązującej licencji), sytuacji wymagających aktualizacji oznaczeń, obowiązujących mechanizmów i wymaganych zezwoleń przy dodawaniu zmian do projektów.
+Aktualny materiał (ostatnie zmiany w marcu 2020 r.) podsumował podstawy tworzenia oznaczeń w plikach (informacje o prawach autorskich i jednoznaczne określenie obowiązującej licencji), sytuacji wymagających aktualizacji oznaczeń, obowiązujących mechanizmów i wymaganych zezwoleń przy dodawaniu zmian do projektów.
 
 ## Egzamin końcowy
 

@@ -28,7 +28,7 @@ Należy podkreślić, że różne kraje mają własne przepisy praw autorskich. 
 
 Oryginalne „dzieło” może odnosić się do twórczego, intelektualnego lub artystycznego utworu. Kod źródłowy oprogramowania napisany przez człowieka uznaje się za oryginalne dzieło. Prawo autorskie nie obejmuje idei ani informacji, ale raczej sposób, w jaki są one wyrażone (czyli zapisane). Idee i algorytmy może obejmować za to prawo patentowe. Dzieło musi być uznane za oryginalne, a nie skopiowane z innego źródła, aby mogło objąć je prawo autorskie.
 
-![logo Copyright](img/copyright-logo.jpg)
+![Logo Copyright](img/copyright-logo.jpg)
 
 Pobrano z [Wikipedii](https://en.wikipedia.org/wiki/Copyright), na licencji [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
@@ -42,7 +42,7 @@ Pierwotne przepisy zostały z czasem zmienione i udoskonalone wraz ze zmianami w
 
 ![Statut Królowej Anny](img/statute-of-anne.jpg)
 
-**Status Królowej Anny**. Pobrano z [Wikipedii](https://en.wikipedia.org/wiki/Statute_of_Anne), na licencji [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+**Statut Królowej Anny**. Pobrano z [Wikipedii](https://en.wikipedia.org/wiki/Statute_of_Anne), na licencji [CC BY SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ### Definicja praw autorskich w USA
 

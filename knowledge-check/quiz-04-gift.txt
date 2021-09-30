@@ -1,5 +1,5 @@
 ﻿// pytanie: 41  nazwa: q4.1
-::q4.1::[markdown]poprawne oznaczenie praw autorskich i licencji powinno pojawić się\:{
+::q4.1::[markdown]Poprawne oznaczenie praw autorskich i licencji powinno pojawić się\:{
 	~na początku pliku
 	~na końcu pliku
 	=w dowolnym miejscu pliku

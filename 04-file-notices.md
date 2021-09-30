@@ -43,7 +43,7 @@ Zgodnie z konwencją oznakowanie umieszcza się na początku pliku.
  *      Author: Tomasz Nowicki <tomasz.nowicki@linaro.org>
  *      Author: Naresh Bhat <naresh.bhat@linaro.org>
  */
- ```
+```
 
 Pierwszy [przykład](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/arm64/kernel/acpi.c), któremu się przyjrzymy, pochodzi z systemu operacyjnego Linux. W pliku `acpi.c` oznaczonym właścicielem praw autorskich jest Linaro. Użycie słowa "Copyright" jednocześnie z odpowiadającym mu symbolem to przesada, ale nie stanowi poważnego problemu. Pierwotna data publikacji to 2013, ale w 2014 dodano wiele znaczących zmian. Oznaczono to, wykorzystując zakres dat. Określenie praw autorskich mieści się w jednej linii.
 
