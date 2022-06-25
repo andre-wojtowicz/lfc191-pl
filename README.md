@@ -1,4 +1,4 @@
-﻿# Podstawy licencjonowania otwartego oprogramowania dla programistów (LFC191-pl)
+# Podstawy licencjonowania otwartego oprogramowania dla programistów (LFC191-pl)
 
 Otwarte oprogramowanie jest teraz wszędzie tam, gdzie komputery, więc dobra znajomość praktyk licencjonowania open source i zagadnień zgodności jest kluczowa. Ten kurs stworzyliśmy po to, aby nauczyć programistów i twórców oprogramowania, jak ważne jest dodawanie informacji o licencjach i prawach do kodu oraz jak to w praktyce robić.
 

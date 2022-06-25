@@ -1,1 +1,1 @@
-﻿Zobacz README.md
+Zobacz README.md

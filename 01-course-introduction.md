@@ -1,4 +1,4 @@
-﻿# Wstęp do kursu
+# Wstęp do kursu
 
 ## Informacje o kursie
 

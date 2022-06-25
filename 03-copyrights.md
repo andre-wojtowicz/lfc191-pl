@@ -1,4 +1,4 @@
-﻿# Prawa autorskie
+# Prawa autorskie
 
 ## Wprowadzenie
 

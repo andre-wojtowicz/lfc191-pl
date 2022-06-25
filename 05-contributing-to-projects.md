@@ -1,4 +1,4 @@
-﻿# Udział w projektach
+# Udział w projektach
 
 ## Wprowadzenie
 

@@ -1,4 +1,4 @@
-﻿# Oznakowanie w plikach
+# Oznakowanie w plikach
 
 ## Wprowadzenie
 

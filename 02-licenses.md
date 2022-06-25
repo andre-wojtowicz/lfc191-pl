@@ -1,4 +1,4 @@
-﻿# Licencje
+# Licencje
 
 ## Wprowadzenie
 

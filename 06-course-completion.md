@@ -1,4 +1,4 @@
-﻿# Ukończenie kursu
+# Ukończenie kursu
 
 ## Zanim przystąpisz do końcowego egzaminu
 
