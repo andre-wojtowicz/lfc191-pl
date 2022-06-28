@@ -153,10 +153,10 @@ W naszym projekcie chcemy również oznaczyć licencją `GPL-3.0-or-later` pliki
 
 Obejdziemy ten problem tworząc pliki `cat.jpg.license` i `dog.jpg.license`, w których tak w poprzednim kroku każdy będzie zawierał te same informacje o licencji i właścicielu praw autorskich.
 
-Narzędzie REUSE powinno automatycznie wykrywać pliki binarne i automatycznie tworzyć odpowiedni pliki `.license`. Jeśli tak się nie stanie lub jeśli chcielibyśmy wymusić ich tworzenie, to dodajemy parametr `--explicit-license` do polecenia `reuse addheader`. Tak więc polecenie dla powyższego zadania może wyglądać następująco:
+Narzędzie REUSE powinno automatycznie wykrywać pliki binarne i automatycznie tworzyć odpowiedni pliki `.license`. Jeśli tak się nie stanie lub jeśli chcielibyśmy wymusić ich tworzenie, to dodajemy parametr `--force-dot-license` do polecenia `reuse addheader`. Tak więc polecenie dla powyższego zadania może wyglądać następująco:
 
 ```shell
-$ reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --explicit-license img/cat.jpg img/dog.jpg
+$ reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --force-dot-license img/cat.jpg img/dog.jpg
 ```
 
 Wynik:
@@ -188,7 +188,7 @@ Identyfikator SPDX dla tej licencji to `CC-BY-4.0`. Narzędzie REUSE jak na razi
 
 ```shell
 $ rm img/cat.jpg.license img/dog.jpg.license
-$ reuse addheader --copyright="Max Mehl <max.mehl@fsfe.org>" --license="CC-BY-4.0" --explicit-license img/cat.jpg img/dog.jpg
+$ reuse addheader --copyright="Max Mehl <max.mehl@fsfe.org>" --license="CC-BY-4.0" --force-dot-license img/cat.jpg img/dog.jpg
 ```
 
 Wynik:
